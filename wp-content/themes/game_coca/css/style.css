@@ -42,7 +42,7 @@ body{
 	float: none;
 	display: inline-block;
     background-color: #e6202d;
-    margin-left: -4px;
+    margin-left: -5px;
     height: 48px;
 }
 
@@ -52,6 +52,9 @@ body{
 	font-size: 16px;
 	font-family:"UTMAvoBold_Italic";
 	color: #ffffff !important;
+    padding: 0 34px !important;
+    height: 48px;
+    line-height: 48px !important;
 }
 .coca-menu-top li.active a{
 	background-color: transparent !important;
@@ -60,15 +63,18 @@ body{
 	border-color: transparent;
     background-color: transparent;
 }
+.coca-menu-top li:first-child{
+    background: transparent;
+}
 
 .coca-menu-top li:first-child:before {
     background: url(../images/background-coner-left.png) no-repeat;
     content: "";
     top: 0px;
     position: absolute;
-    width: 200px;
-    height: 50px;
-    left: -107px;
+    width: 223px;
+    height: 48px;
+    left: -58px;
     z-index: 0;
 }
 .coca-menu-top li:last-child{
@@ -85,8 +91,86 @@ body{
     content: "";
     top: 0px;
     position: absolute;
-    width: 210px;
-    height: 50px;
-    right: -80px;
+    width: 223px;
+    height: 48px;
+    right: -61px;
     z-index: 0;
+}
+
+.coca-menu-top a span:before {
+    background: rgba(0,0,0, .19);
+    width: 100%;
+    height: 27px;
+    position: absolute;
+    content: "";
+    top: 8px;
+    transform: skewX(21deg);
+    left: 5px;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.coca-menu-top a span {
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+   
+}
+.coca-menu-top a:hover span,.coca-menu-top li.active a span{
+    z-index: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.coca-menu-top li:last-child a{
+    left: 25px;
+}
+
+main.main-home {
+    background: url(../images/people-background.png) no-repeat;
+    padding-top:294px;
+    background-position-x: -137px;
+    min-height: 808px;
+}
+
+.title-main{
+    font-family: "UTMAvoBold_Italic";
+    font-size: 36.45px;
+    color:#737373;
+    text-transform: uppercase;
+}
+.content-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.clear{
+    margin: 0;
+    padding: 0;
+}
+.button-play{
+    width: 228px;
+    display: block;
+    background-color: #e6202d;
+    height: 54px;
+    line-height: 54px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family:  "UTMAvoBold_Italic";
+    color: #ffffff;
+    margin-top: 32px;
+}
+a.button-play:hover{
+    text-decoration: none;
+    color: #ffffff;
 }
