@@ -237,3 +237,53 @@ footer{
     bottom: 0;
     width: 100%;
 }
+.logo-center{
+    background: url(../images/logo-footer-center.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 250px;
+    height: 91px;
+}
+#signupbox .form-horizontal .control-label{
+    text-align: left;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "UTMAvoBold";
+}
+
+#signupbox .panel-info>.panel-heading{
+    background-color: #e6202d;
+    border-color: transparent;
+
+}
+#signupbox .panel-title{
+    font-family: "UTMAvoBold";
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#signupbox .panel-info{
+    border: none;
+}
+#signupbox .panel{
+    background-color: #e6202d;
+}
+#signupbox #btn-signup{
+    font-size: 14px;
+    font-family: "UTMAvoBold_Italic";
+    color: #e6202d;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-color: transparent;
+    width: 217px;
+    border-radius: 20px;
+
+}
+#signupbox .form-control{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
