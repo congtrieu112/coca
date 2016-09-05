@@ -7,7 +7,24 @@
          url('../fonts/UTMAvoBold_Italic.ttf') format('truetype'),
          url('../fonts/UTMAvoBold_Italic.svg#UTMAvoBold_Italic') format('svg');
 }
-
+@font-face {
+    font-family: 'UTMAvoBold';
+    src: url('../fonts/UTMAvoBold.eot');
+    src: url('../fonts/UTMAvoBold.eot') format('embedded-opentype'),
+         url('../fonts/UTMAvoBold.woff2') format('woff2'),
+         url('../fonts/UTMAvoBold.woff') format('woff'),
+         url('../fonts/UTMAvoBold.ttf') format('truetype'),
+         url('../fonts/UTMAvoBold.svg#UTMAvoBold') format('svg');
+}
+@font-face {
+    font-family: 'UTMAvo';
+    src: url('../fonts/UTMAvo.eot');
+    src: url('../fonts/UTMAvo.eot') format('embedded-opentype'),
+         url('../fonts/UTMAvo.woff2') format('woff2'),
+         url('../fonts/UTMAvo.woff') format('woff'),
+         url('../fonts/UTMAvo.ttf') format('truetype'),
+         url('../fonts/UTMAvo.svg#UTMAvo') format('svg');
+}
 
 *{
 	margin :0;
@@ -170,7 +187,53 @@ main.main-home {
     color: #ffffff;
     margin-top: 32px;
 }
-a.button-play:hover{
+a.button-play:hover,a.button-play:link,a.button-play:visited,a.button-play:active {
     text-decoration: none;
     color: #ffffff;
+}
+
+
+
+
+.prize{
+    margin-top: 85px;
+}
+.prize img{
+    margin:auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.image-fixed{
+    height: 157px;
+    position: relative;
+}
+.info-article{
+    text-align: center;
+}
+.title-articlee{
+    font-family: "UTMAvoBold";
+    color: #e6202d;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.description-article{
+    font-family: "UTMAvo";
+    color: #e6202d;
+    font-size: 16px;
+}
+footer{
+    background: url(../images/footer-backgound.png) no-repeat;
+    min-height: 292px;
+    background-position: bottom center;
+    margin-top: -70px;
+    position: relative;
+}
+.info-footer{
+    margin:auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
