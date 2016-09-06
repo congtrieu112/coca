@@ -54,14 +54,15 @@
         </nav>
     </header>
     <main>
-        <div class="container">    
            
-            <div id="signupbox" style="margin-top:50px" class="mainbox col-md-9 col-md-offset-1 col-sm-8 col-sm-offset-2">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <div class="panel-title">Đăng ký</div>
+            <div id="signupbox"  class="mainbox">
+                <div class="panel panel-info ">
+                    <div class="panel-heading col-md-offset-1 col-md-10 col-md-offset-1">
+                        <div class="panel-title clear">Đăng ký</div>
+                        <p class="content-info-form clear">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     </div>  
-                    <div class="panel-body" >
+                    <div class="panel-body col-md-offset-2 col-md-8 col-md-offset-2" >
                         <form id="signupform" class="form-horizontal" role="form">
 
                             <div id="signupalert" style="display:none" class="alert alert-danger">
@@ -90,25 +91,42 @@
                             <div class="form-group">
                                 <label for="email" class="col-md-4 control-label">Phòng ban</label>
                                 <div class="col-md-8">
-                                    <select name="department" id="" class="form-control">
-                                       <?php 
-                                          $args = array(  'post_type'=> 'department','posts_per_page' => -1 );
-                                          $myposts = get_posts( $args );
-                                          foreach ( $myposts as $post ) :  ?>
-                                             <option  value="<?php print $post->ID; ?>"><?php print $post->post_title; ?></option>
-                                       <?php endforeach; 
-                                          wp_reset_postdata();
-                                       ?>
-                                    </select>
+                                    
+                                    <a class="btn btn-danger btn-select btn-select-light">
+                                        <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                        <span class="btn-select-value">Select an Item</span>
+                                        <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                                        <ul>
+                                            <?php 
+                                              $args = array(  'post_type'=> 'department','posts_per_page' => -1 );
+                                              $myposts = get_posts( $args );
+                                              foreach ( $myposts as $post ) :  ?>
+                                              <li><?php print $post->post_title; ?></li>
+                                               <?php endforeach; 
+                                                  wp_reset_postdata();
+                                               ?>
+                                            
+                                        </ul>
+                                    </a>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="email" class="col-md-4 control-label">Cấp bậc</label>
                                 <div class="col-md-8">
-                                    <select name="level" id="" class="form-control">
-                                        <option value="1">Non-Manager</option>
-                                        <option value="2">Manager</option>
-                                    </select>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input class="magic-radio" type="radio" name="radio" id="1" value="option1">
+                                            <label for="1">
+                                                Quản lý
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input class="magic-radio" type="radio" name="radio" id="2" value="option2">
+                                            <label for="2">
+                                                Nhân viên
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -134,7 +152,7 @@
                             <div class="form-group">
                                 <!-- Button -->                                        
                                 <div class="col-md-offset-4 col-md-8">
-                                    <button  id="btn-signup" type="button" class="btn btn-info" ><i class="icon-hand-right"></i> &nbsp Tạo tài khoản</button>
+                                    <button  id="btn-signup" type="button" class="btn btn-info clear" >Tạo tài khoản</button>
                                       
                                 </div>
                             </div>
@@ -145,13 +163,10 @@
 
                         </form>
                     </div>
+                    <div class="effect-right-form"></div>
+                    <div class="effect-left-form"></div>
                 </div>
-
-
-
-
             </div> 
-        </div>
 
 
     </main>
