@@ -92,10 +92,10 @@
                                 <label for="email" class="col-md-4 control-label">Phòng ban</label>
                                 <div class="col-md-8">
                                     
-                                    <a class="btn btn-danger btn-select btn-select-light">
+                                    <a class="btn  btn-select btn-select-light">
                                         <input type="hidden" class="btn-select-input" id="" name="" value="" />
-                                        <span class="btn-select-value">Select an Item</span>
-                                        <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                                        <span class="btn-select-value clear"><?php _e('Chọn phòng ban','coca'); ?></span>
+                                        <span class='btn-select-arrow glyphicon glyphicon-triangle-bottom'></span>
                                         <ul>
                                             <?php 
                                               $args = array(  'post_type'=> 'department','posts_per_page' => -1 );
@@ -117,13 +117,13 @@
                                         <div class="col-md-6">
                                             <input class="magic-radio" type="radio" name="radio" id="1" value="option1">
                                             <label for="1">
-                                                Quản lý
+                                               <?php _e('Quản lý','coca'); ?> 
                                             </label>
                                         </div>
                                         <div class="col-md-6">
                                             <input class="magic-radio" type="radio" name="radio" id="2" value="option2">
                                             <label for="2">
-                                                Nhân viên
+                                                <?php _e('Nhân viên','coca'); ?>
                                             </label>
                                         </div>
                                     </div>
