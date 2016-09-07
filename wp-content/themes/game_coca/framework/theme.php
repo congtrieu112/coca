@@ -67,7 +67,7 @@ if( !class_exists( 'SetupQuiz' ) ) {
 		{
 			wp_enqueue_style('bootstrap.min', THEME_URI . 'css/bootstrap.min.css');
 			wp_enqueue_style('radio_css', THEME_URI . 'css/magic-check.css');
-       
+       		wp_enqueue_style('font-awesome_css', THEME_URI . 'css/font-awesome.css');
 			
 			wp_enqueue_style('custom.css', THEME_URI . 'css/style.css');
 			wp_register_script('jquery_google','https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js',array(),false,true);

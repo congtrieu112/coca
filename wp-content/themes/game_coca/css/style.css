@@ -294,6 +294,7 @@ footer {
   box-shadow: 5px 7px 1px #b81a24;
   position: relative;
   border-radius: inherit;
+  width: 100%;
 }
 
 #signupbox #btn-signup {
@@ -605,8 +606,17 @@ a.btn.btn-select.btn-select-light {
   color: black;
 }
 
+.start-text {
+  text-align: center;
+}
+
+.start-text li {
+  float: none;
+  display: inline-block;
+}
+
 .start-text a {
-  border-bottom: 37px solid #e6202d !important;
+  border-bottom: 37px solid #b81a24 !important;
   border-left: 15px solid transparent !important;
   border-right: 15px solid transparent !important;
   height: 0;
@@ -614,10 +624,149 @@ a.btn.btn-select.btn-select-light {
   padding: 0 30px !important;
   margin-right: 0 !important;
   margin-left: -15px !important;
+  color: #ffffff;
+  font-family: "UTMAvoBold";
+  font-size: 18.8px;
 }
 
-.start-text > li:nth-child(2) > a {
+.start-text > li:first-child > a {
   margin-left: 0 !important;
+  border-bottom: 37px solid #0887ca !important;
+  padding: 0 7px !important;
+}
+
+.start-text > li:last-child > a {
+  border-bottom: 37px solid #0887ca !important;
+  z-index: -1;
+  padding: 0 7px !important;
+}
+
+.start-text > li:last-child {
+  cursor: pointer;
+}
+
+.start-text > li.active > a, .start-text > li.active > a:not(:hover), .start-text > li.active > a:hover, .start-text > li > a:hover, .start-text > li > a:focus {
+  border-bottom: 37px solid #e6202d !important;
+  z-index: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.start-text a:after {
+  width: 1px;
+  height: 39px;
+  content: "";
+  border: 1px solid #fff;
+  transform: rotate(-23deg);
+  position: absolute;
+  top: -1px;
+  right: -9px;
+  z-index: 2;
+}
+
+.start-text > li.active > a:after, .start-text > li:last-child > a:after, .start-text > li:first-child > a:after {
+  border: none;
+}
+
+.status-stat-test {
+  font-size: 18px;
+  font-family: "UTMAvoBold";
+  color: #ffffff;
+  text-align: center;
+}
+
+.chance {
+  width: 34px;
+  height: 29px;
+  background: url(../images/chance.png) no-repeat;
+  display: inline-block;
+}
+
+.chance-none {
+  width: 34px;
+  height: 29px;
+  background: url(../images/chance-none.png) no-repeat;
+  display: inline-block;
+}
+
+.title-chance {
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.question-info {
+  font-size: 18px;
+  font-family: "UTMAvoBold";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.list-question label {
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-left: 50px;
+}
+
+.list-question label:before {
+  width: 40px;
+  height: 40px;
+  top: 2px;
+  border: 2px solid #ffffff;
+}
+
+.list-question label:after {
+  width: 40px;
+  height: 40px;
+  top: 2px;
+  left: 0;
+}
+
+.list-question {
+  margin-top: 30px;
+}
+
+.question {
+  clear: both;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.paging {
+  max-width: 525px;
+  margin: 35px auto;
+}
+
+.prev-page, .next-page {
+  width: 218px;
+  display: inline-block;
+  height: 53px;
+  font-size: 18px;
+  font-family: "UTMAvoBold_Italic";
+  color: #e6202d !important;
+  text-align: center;
+  background-color: #ffffff;
+  line-height: 53px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.prev-page:hover, .next-page:hover, .prev-page:not(:hover), .next-page:not(:hover) {
+  text-decoration: none;
+}
+
+.prev-page i, .next-page i {
+  font-size: 23px;
+  padding: 0 4px;
+}
+
+.prev-page {
+  margin-right: 80px;
+}
+
+.header-question {
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
