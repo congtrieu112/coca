@@ -54,6 +54,9 @@ $(document).ready(function () {
             $(this).find(".btn-select-value").html(value);
         }
     });
+    var $scrollbar = $("#scrollbar1");
+
+    $scrollbar.tinyscrollbar();
 });
 
 $(document).on('click', '.btn-select', function (e) {

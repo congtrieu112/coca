@@ -45,14 +45,21 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav max-with-menu coca-menu-top">
-                        <li class="active"><a href="#"> <span >TRANG CHỦ</span></a></li>
-                        <li><a href="#"><span>TRANH TÀI NGAY</span></a></li>
-                        <li><a href="#"><span>Thể lệ & Giải thưởng</span></a></li>
-                        <li><a href="#"><span>Bảng xếp hạng</span></a></li>
-                        <li><a href="#"><span>kết quả</span></a></li>
-                        <li><a href="#"><span>Đăng nhâp</span></a></li>
+                <div class="fix-center">
+                	<ul class="nav navbar-nav max-with-menu coca-menu-top">
+                        <li class="active"><a href="javascript:void(0)"> <span >TRANG CHỦ</span></a></li>
+                        <li><a href="javascript:void(0)"><span>TRANH TÀI NGAY</span></a></li>
+                        <li><a href="javascript:void(0)"><span>Thể lệ & Giải thưởng</span></a></li>
+                        <li><a href="javascript:void(0)"><span>Bảng xếp hạng</span></a></li>
+                        <li><a href="javascript:void(0)"><span>kết quả</span></a></li>
+                        <li class="loged">
+                        		<a href="javascript:void(0)" class="avata-user"><img src="<?php print THEME_IMG_URI; ?>avata.png" alt=""></a>
+	                        	<a href="javascript:void(0)" class="profile-user">Nguyễn Văn A</a> 
+	                        	<a href="javascript:void(0)" class="logout-user">Đăng xuất</a>
+                        </li>
                     </ul>
+                </div>
+                    
                    
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -138,8 +145,7 @@
 
 							</div>
 		                   
-		                    <div class="effect-right-form"></div>
-		                    <div class="effect-left-form"></div>
+		                    <?php get_template_part('template/effect','startTest'); ?>
 	                	</div>
 	                </div>
 	                <div role="tabpanel" class="tab-pane" id="profile">
@@ -205,8 +211,7 @@
 
 							</div>
 		                   
-		                    <div class="effect-right-form"></div>
-		                    <div class="effect-left-form"></div>
+		                    <?php get_template_part('template/effect','startTest'); ?>
 	                	</div>
             		</div>
             		<div role="tabpanel" class="tab-pane" id="messages">
@@ -272,8 +277,7 @@
 
 							</div>
 		                   
-		                    <div class="effect-right-form"></div>
-		                    <div class="effect-left-form"></div>
+		                    <?php get_template_part('template/effect','startTest'); ?>
 	                	</div>
             		</div>
             		<div role="tabpanel" class="tab-pane" id="settings">
@@ -339,8 +343,7 @@
 
 							</div>
 		                   
-		                    <div class="effect-right-form"></div>
-		                    <div class="effect-left-form"></div>
+		                    <?php get_template_part('template/effect','startTest'); ?>
 	                	</div>
             		</div>
             	</div>

@@ -68,16 +68,21 @@ if( !class_exists( 'SetupQuiz' ) ) {
 			wp_enqueue_style('bootstrap.min', THEME_URI . 'css/bootstrap.min.css');
 			wp_enqueue_style('radio_css', THEME_URI . 'css/magic-check.css');
        		wp_enqueue_style('font-awesome_css', THEME_URI . 'css/font-awesome.css');
-			
+			wp_enqueue_style('scroll_css', THEME_URI . 'css/tinyscrollbar.css');
 			wp_enqueue_style('custom.css', THEME_URI . 'css/style.css');
-			wp_register_script('jquery_google','https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js',array(),false,true);
+
+
+			wp_register_script('jquery_google','https://code.jquery.com/jquery-latest.min.js',array(),false,true);
 			wp_register_script('boostrap_js',THEME_URI.'js/bootstrap.min.js',array(),false,true);
+			wp_register_script('scroll_js',THEME_URI.'js/jquery.tinyscrollbar.js',array(),false,true);
 			wp_register_script('custom_js',THEME_URI.'js/process.js',array(),false,true);
 			wp_localize_script('custom_js','MyCongfig',array('AjaxUrl'=>admin_url('admin-ajax.php' )) );
 			
 
 			wp_enqueue_script('jquery_google');
+			wp_enqueue_script('scroll_js');
 			wp_enqueue_script('boostrap_js');
+			
 			wp_enqueue_script('custom_js');
 
 		}

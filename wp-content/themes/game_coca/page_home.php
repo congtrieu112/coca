@@ -45,14 +45,16 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav max-with-menu coca-menu-top">
-                        <li class="active"><a href="#"> <span >TRANG CHỦ</span></a></li>
-                        <li><a href="#"><span>TRANH TÀI NGAY</span></a></li>
-                        <li><a href="#"><span>Thể lệ & Giải thưởng</span></a></li>
-                        <li><a href="#"><span>Bảng xếp hạng</span></a></li>
-                        <li><a href="#"><span>kết quả</span></a></li>
-                        <li><a href="#"><span>Đăng nhâp</span></a></li>
-                    </ul>
+                    <div class="fix-center">
+                        <ul class="nav navbar-nav max-with-menu coca-menu-top">
+                            <li class="active"><a href="#"> <span >TRANG CHỦ</span></a></li>
+                            <li><a href="#"><span>TRANH TÀI NGAY</span></a></li>
+                            <li><a href="#"><span>Thể lệ & Giải thưởng</span></a></li>
+                            <li><a href="#"><span>Bảng xếp hạng</span></a></li>
+                            <li><a href="#"><span>kết quả</span></a></li>
+                            <li><a href="#">Đăng nhập</a></li>
+                        </ul>
+                    </div>
                    
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

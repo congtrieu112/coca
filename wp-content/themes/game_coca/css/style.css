@@ -27,6 +27,7 @@ body {
   background: -ms-linear-gradient(top, white 0%, #f6f6f6 47%, #ededed 100%);
   background: linear-gradient(to bottom, white 0%, #f6f6f6 47%, #ededed 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+  overflow-x: hidden;
 }
 
 main {
@@ -47,16 +48,24 @@ main {
   margin:0 auto;
   float: none;*/
   margin: 0 auto;
-  float: none;
+  float: left;
   text-align: center;
+  position: relative;
+  left: -50%;
+}
+
+.fix-center {
+  float: left;
+  position: relative;
+  margin: 0 auto;
+  left: 50%;
 }
 
 .coca-menu-top li {
-  float: none;
   display: inline-block;
   background-color: #e6202d;
-  margin-left: -5px;
   height: 48px;
+  padding: 0 30px;
 }
 
 .coca-menu-top a {
@@ -64,7 +73,7 @@ main {
   font-size: 16px;
   font-family: "UTMAvoBold_Italic";
   color: #ffffff !important;
-  padding: 0 34px !important;
+  padding: 0  !important;
   height: 48px;
   line-height: 48px !important;
 }
@@ -89,7 +98,7 @@ main {
   position: absolute;
   width: 223px;
   height: 48px;
-  left: -58px;
+  right: 0;
   z-index: 0;
 }
 
@@ -110,8 +119,12 @@ main {
   position: absolute;
   width: 223px;
   height: 48px;
-  right: -61px;
+  left: 0;
   z-index: 0;
+}
+
+.coca-menu-top li:first-child, .coca-menu-top li:last-child {
+  width: 223px;
 }
 
 .coca-menu-top a span:before {
@@ -150,7 +163,7 @@ main {
 }
 
 .coca-menu-top li:last-child a {
-  left: 25px;
+  text-decoration: none;
 }
 
 main.main-home {
@@ -767,6 +780,162 @@ a.btn.btn-select.btn-select-light {
 
 .header-question {
   margin-bottom: 50px;
+}
+
+.PositonAbsolute, .effect-left-top-test-start, .effect-left-bottom-test-start, .effect-right-top-test-start, .effect-right-bottom-test-start {
+  position: absolute;
+}
+
+.effect-left-top-test-start {
+  left: -100px;
+  top: 160px;
+  background: url(../images/effect-left-top-test-start.png) no-repeat;
+  width: 81px;
+  height: 67px;
+}
+
+.effect-left-bottom-test-start {
+  left: -55px;
+  bottom: 40px;
+  background: url(../images/effect-left-bottom-test-start.png) no-repeat;
+  width: 95px;
+  height: 30px;
+}
+
+.effect-right-top-test-start {
+  right: -105px;
+  top: 15px;
+  background: url(../images/effect-right-top-test-start.png) no-repeat;
+  width: 157px;
+  height: 71px;
+}
+
+.effect-right-bottom-test-start {
+  right: -90px;
+  bottom: -35px;
+  background: url(../images/effect-right-bottom-test-start.png) no-repeat;
+  width: 118px;
+  height: 95px;
+}
+
+li.loged a {
+  left: 0 !important;
+}
+
+.avata-user {
+  float: left;
+  width: 36px;
+  margin: 0 10px;
+}
+
+.avata-user img {
+  width: 34px;
+  height: 34px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+a.profile-user, a.logout-user {
+  font-size: 12px !important;
+  line-height: 10px !important;
+  text-align: left;
+  text-decoration: none !important;
+}
+
+a.profile-user {
+  margin-top: 10px;
+}
+
+.coca-menu-top li:last-child a.logout-user {
+  margin-top: -30px;
+  color: #636363 !important;
+  font-family: tahoma;
+}
+
+.conent-help {
+  clear: both;
+  max-width: 796px;
+  margin: 0 auto;
+}
+
+#signupbox .panel-title.help-title {
+  margin-bottom: 0 !important;
+}
+
+.play-game-title {
+  font-family: "UTMAvoBold";
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.conent-play {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "UTMAvo";
+  height: 200px;
+  overflow: hidden;
+}
+
+.scrollbar1 .thumb {
+  height: 20px;
+  width: 6px;
+  background-color: #666;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: -2px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+fieldset {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+legend {
+  border-bottom: none;
+  width: auto;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "UTMAvoBold";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.play-game {
+  max-width: 420px;
+  margin: 35px auto;
+}
+
+.item-center {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#playgame {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+#playgame #btn-signup {
+  width: 218px;
+  bottom: -25px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.heart {
+  position: relative;
+}
+
+#signupbox .panel {
+  min-height: 667px;
 }
 
 /*# sourceMappingURL=style.css.map */
