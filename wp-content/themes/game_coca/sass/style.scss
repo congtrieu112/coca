@@ -1,5 +1,5 @@
 
-$color-global:#e6202d;
+$color-global: rgb(230, 32, 45);
 
 
 @font-face {
@@ -912,6 +912,461 @@ legend{
 //     position: absolute;
 //     z-index: 2;
 // }
-#signupbox .panel{
-    min-height: 667px;
+
+
+.avatar {
+   
+}
+.br-av {
+    }
+.title-prize-list{
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "UTMAvoBold";
+    text-transform: uppercase;
+    position: absolute;
+    top: -57px;
+    border-bottom: 37px solid #e6202d !important;
+    border-left: 15px solid transparent !important;
+    border-right: 15px solid transparent !important;
+    height: 0;
+    line-height: 37px !important;
+    padding: 0 20px !important;
+    margin-right: 0 !important;
+
+}
+
+.chat-bubble {
+    background-color: #ffffff;
+    border: 2px solid #e6202d;
+    font-size: 14px;
+    line-height: 1.3em;
+    margin: 10px auto;
+    color: #e6202d;
+    padding: 10px;
+    text-align: left;
+    width: 114px;
+    font-family: "UTMAvoBold";
+    text-transform: uppercase;
+    box-shadow: 5px 7px 1px #b81a24;
+    position:absolute;
+    left: -40px;
+}
+
+.chat-bubble-arrow-border {
+    border-color: #e6202d transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0px;
+    left: 26px;
+}
+
+
+.top-personal {
+    position: relative;
+    margin-top:35px;
+}
+.heart-second{
+    width: 175px;
+    height: 148px;
+    -webkit-mask: url(../images/heart-second.png) no-repeat 50% 50%;
+    mask: url(../images/heart-second.png) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+.heart-first{
+    width: 244px;
+    height: 207px;
+    -webkit-mask: url(../images/heart-first.png) no-repeat 50% 50%;
+    mask: url(../images/heart-first.png) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+.heart-thirst{
+    width: 126px;
+    height: 107px;
+    -webkit-mask: url(../images/heart-thirst.png) no-repeat 50% 50%;
+    mask: url(../images/heart-thirst.png) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+.avatar{
+    background-size: cover;
+    position:absolute;
+    bottom:35px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.foot-block{
+    width: 92px;
+    height: 58px;
+    background:url(../images/foot-icon-prize.png) no-repeat;
+    position:absolute;
+    bottom:25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.foot-block-first{
+    width: 116px;
+    height: 73px;
+    background:url(../images/foot-icon-prize-first.png) no-repeat;
+    position:absolute;
+    bottom:25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.foot-block-thirst{
+    width: 78px;
+    height: 49px;
+    background:url(../images/foot-icon-prize-thirst.png) no-repeat;
+    position:absolute;
+    bottom:25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.prize-second{
+    width: 45px;
+    height: 53px;
+    background:url(../images/medal-icon.png) no-repeat;
+    position:absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.prize-first{
+    width: 57px;
+    height: 70px;
+    background:url(../images/medal-icon-first.png) no-repeat;
+    position:absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%, 0); 
+}
+.prize-thirst{
+    width: 38px;
+    height: 47px;
+    background:url(../images/medal-icon-thirst.png) no-repeat;
+    position:absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%, 0); 
+}
+.prize-block{
+    position:relative;
+    min-width: 200px;
+    min-height: 200px;
+}
+.first-block{
+    background: url(../images/box-shodow-first.png) no-repeat;
+    min-width: 285px;
+    background-position: center 40px;
+}
+.bg-marsk {
+    float: left;
+    width: 100%;
+    background: url(../images/table-charts-background.png) no-repeat;
+    background-position: left 150px;
+}
+
+
+.name-person{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "UTMAvoBold";
+    text-transform: uppercase;
+}
+.department-on-person{
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "UTMAvoBold";
+    text-transform: uppercase;
+}
+.point-person{
+    font-size: 18.8px;
+    font-family: "UTMAvo";
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.block-prize{
+    text-align: center;
+    position:relative;
+    padding-top:60px;
+    float: left;
+}
+.info-block-prize {
+    margin-top: 10px;
+}
+.effect-prize-second-1{
+    position:absolute;
+    width: 25px;
+    height: 16px;
+    background:url(../images/effect-prize-second-1.png) no-repeat;
+    top:50px;
+    left: 54%;
+    transform: translate(-50%, 0);
+}
+.effect-prize-second-2{
+    background:url(../images/effect-prize-second-2.png) no-repeat;
+    position:absolute;
+    width: 29px;
+    height: 64px;
+    top: 26px;
+    right: 0;
+}
+
+
+.effect-prize-first{
+    background:url(../images/effect-prize-first.png) no-repeat;
+    position:absolute;
+    width: 44px;
+    height: 111px;
+    top: 35px;
+    right: 0px;
+    z-index: 5;
+}
+
+.effect-prize-first-left{
+    background:url(../images/effect-prize-first-left.png) no-repeat;
+    position:absolute;
+    width: 50px;
+    height: 37px;
+    top: 12px;
+    left: 33px;
+    z-index: 5;
+}
+.effect-prize-thirst-left{
+    background:url(../images/effect-prize-thirst-left.png) no-repeat;
+    position:absolute;
+    width: 62px;
+    height: 39px;
+    top: 61px;
+    left: 20px;
+    z-index: 5;
+}
+.effect-prize-thirst{
+    background:url(../images/effect-prize-thirst.png) no-repeat;
+    position:absolute;
+    width: 25px;
+    height: 16px;
+    z-index: 5;
+
+    top:110px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.top-personal .block-item:nth-child(2n+1){
+    width: 40%;
+}
+.top-personal .block-item:nth-child(2n){
+    width: 30%;
+}
+.block-item{
+    float: left;
+}
+.top-department .block-item{
+    width: 33.333%;
+}
+
+.line-mark {
+    clear: both;
+    margin: 30px 0;
+    float: right;
+    width: 85%;
+    border-top: 2px dashed #880406;
+}
+.top-department{
+    clear: both;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 8px;
+}
+.top-department .name-person,.top-department .department-on-person,.top-department .point-person{
+    color:#e11f2c;
+}
+.top-department .heart-second,.top-department .heart-first,.top-department .heart-thirst{
+    width: 189px;
+    height: 160px;
+    -webkit-mask: url(../images/heart-department.png) no-repeat 50% 50%;
+    mask: url(../images/heart-department.png) no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+.top-department .block-prize{
+    padding-top:0;
+}
+.top-department .info-block-prize{
+    margin-top:30px;
+}
+
+
+.charts{
+    background-color:#850305;
+    padding-top:20px;
+}
+.charts .title-prize-list{
+    border-bottom: 37px solid #850305 !important;
+}
+#signupbox .charts #btn-signup{
+    position:absolute;
+    bottom:-30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #d91e2b !important;
+    color: #ffffff !important
+}
+#signupbox .charts #btn-signup span{
+    position:relative;
+}
+#signupbox .charts #btn-signup span:before{
+   background: rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 27px;
+    position: absolute;
+    content: "";
+    top: 8px;
+    transform: skewX(21deg);
+    left: 5px;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+    
+.table-charts{
+    padding-right: 10px;
+    margin-top: 15px;
+}
+.charts td{
+    vertical-align:inherit !important;
+    font-size: 17.42px;
+    color:#ffffff;
+    font-family: "UTMAvoBold_Italic";
+    border-top: 1px solid #b81a24 !important;
+}
+.charts tr:hover{
+    background-color:#ffffff !important;
+}
+.charts tr:hover td,.charts tr:hover .name-user-charts,.charts tr:hover .point-user-charts,.charts tr:hover .department-user-charts{
+    color:#e6202d;
+}
+.charts a.btn.btn-select.btn-select-light{
+    max-width: 204px;
+    margin:0 auto;
+    height: 26px;
+    line-height: 26px;
+}
+
+.charts .btn-select .btn-select-arrow {
+    float: right;
+    line-height: 7px;
+    padding: 9px 8px;
+    border-left: 2px solid #e6202d;
+}
+.charts .btn-select.btn-select-light .btn-select-value{
+    font-size: 12px !important;
+    color: #e6202d !important;
+    font-family: "UTMAvo";
+    height: 24px !important;
+    line-height: 24px !important;
+    background-color:#ffffff !important;
+    width: 100%;
+}
+.charts .btn-select ul li{
+    font-size: 12px !important;
+}
+.charts .btn-select ul{
+    top:26px;
+}
+
+
+
+
+.user-charts{
+    width: 20px;
+    padding-right:0 !important;
+}
+.user-charts .avata-user img{
+    width: 38px;
+    height: 38px;
+}
+.name-user-charts {
+    font-family: "UTMAvoBold_Italic";
+    font-size: 12px;
+    text-transform: capitalize;
+    color:#ffffff;
+}
+.point-user-charts,.department-user-charts{
+    font-family: tahoma;
+    color:#ffffff;
+    font-size: 12px;
+
+}
+
+#scrollbar2 {
+    position: relative;
+}
+
+#scrollbar2 .scrollbar {
+    position: absolute;
+    background-position: 0 0;
+    right: 10px;
+    top: 0;
+    width: 1px;
+    background-color: #dedede;
+}
+
+#scrollbar2 .overview {
+    list-style: none;
+    position: absolute;
+    left: 26px;
+    top: 0;
+    margin: 0;
+    padding: 10px 0;
+}
+#scrollbar2 .viewport {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+#scrollbar2 .thumb {
+    height: 20px;
+    width: 6px;
+    background-color: #666;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.border-left-table{
+    
+}
+#scrollbar2 tr:before {
+    border-color: #850305 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 35px;
+    content: "";
+    left: 0;
+    transform: rotate(-90deg);
+    z-index: 5;
+}
+#scrollbar2 tr{
+    position:relative;
 }

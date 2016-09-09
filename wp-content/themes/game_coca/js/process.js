@@ -55,8 +55,11 @@ $(document).ready(function () {
         }
     });
     var $scrollbar = $("#scrollbar1");
+    var $scrollbar_two = $("#scrollbar2");
 
     $scrollbar.tinyscrollbar();
+
+    $scrollbar_two.tinyscrollbar();
 });
 
 $(document).on('click', '.btn-select', function (e) {
