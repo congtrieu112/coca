@@ -221,6 +221,18 @@
                                                 <table class="table table-hover"> 
 
                                                     <tr> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td> 
+                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
+                                                        <td class="info-user-charts">
+                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
+                                                            <p class="point-user-charts clear"> 100 diem</p>
+                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
+                                                        </td>
+
+                                                    </tr> 
+                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
                                                         <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
@@ -230,24 +242,7 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>002</td> 
-                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
-                                                        <td class="info-user-charts">
-                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
-                                                            <p class="point-user-charts clear"> 100 diem</p>
-                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
-                                                        </td>
-                                                    </tr> 
-                                                    <tr> 
-                                                        <td>003</td> 
-                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
-                                                        <td class="info-user-charts">
-                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
-                                                            <p class="point-user-charts clear"> 100 diem</p>
-                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
-                                                        </td>
-                                                    </tr> 
-                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
                                                         <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
@@ -257,24 +252,7 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>002</td> 
-                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
-                                                        <td class="info-user-charts">
-                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
-                                                            <p class="point-user-charts clear"> 100 diem</p>
-                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
-                                                        </td>
-                                                    </tr> 
-                                                    <tr> 
-                                                        <td>003</td> 
-                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
-                                                        <td class="info-user-charts">
-                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
-                                                            <p class="point-user-charts clear"> 100 diem</p>
-                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
-                                                        </td>
-                                                    </tr> 
-                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
                                                         <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
@@ -284,7 +262,8 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>002</td> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
                                                             <p class="name-user-charts clear">Nguyen A 100 diem</p>
@@ -293,7 +272,38 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>003</td> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td> 
+                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
+                                                        <td class="info-user-charts">
+                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
+                                                            <p class="point-user-charts clear"> 100 diem</p>
+                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
+                                                        </td>
+                                                    </tr> 
+                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td> 
+                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
+                                                        <td class="info-user-charts">
+                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
+                                                            <p class="point-user-charts clear"> 100 diem</p>
+                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
+                                                        </td>
+                                                    </tr> 
+                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td> 
+                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
+                                                        <td class="info-user-charts">
+                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
+                                                            <p class="point-user-charts clear"> 100 diem</p>
+                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
+                                                        </td>
+                                                    </tr> 
+                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
                                                             <p class="name-user-charts clear">Nguyen A 100 diem</p>
@@ -302,6 +312,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr> 
+                                                        <td class="bg-hover"></td> 
                                                         <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
@@ -311,24 +322,7 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>002</td> 
-                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
-                                                        <td class="info-user-charts">
-                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
-                                                            <p class="point-user-charts clear"> 100 diem</p>
-                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
-                                                        </td>
-                                                    </tr> 
-                                                    <tr> 
-                                                        <td>003</td> 
-                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
-                                                        <td class="info-user-charts">
-                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
-                                                            <p class="point-user-charts clear"> 100 diem</p>
-                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
-                                                        </td>
-                                                    </tr> 
-                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
                                                         <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
@@ -338,7 +332,8 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>002</td> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td>
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
                                                             <p class="name-user-charts clear">Nguyen A 100 diem</p>
@@ -347,7 +342,8 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>003</td> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td>  
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
                                                             <p class="name-user-charts clear">Nguyen A 100 diem</p>
@@ -356,6 +352,7 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
+                                                        <td class="bg-hover"></td> 
                                                         <td>001</td> 
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
@@ -365,7 +362,8 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>002</td> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td>
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
                                                             <p class="name-user-charts clear">Nguyen A 100 diem</p>
@@ -374,7 +372,28 @@
                                                         </td>
                                                     </tr> 
                                                     <tr> 
-                                                        <td>003</td> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td> 
+                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
+                                                        <td class="info-user-charts">
+                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
+                                                            <p class="point-user-charts clear"> 100 diem</p>
+                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
+                                                        </td>
+                                                    </tr> 
+                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td>
+                                                        <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
+                                                        <td class="info-user-charts">
+                                                            <p class="name-user-charts clear">Nguyen A 100 diem</p>
+                                                            <p class="point-user-charts clear"> 100 diem</p>
+                                                            <p class="department-user-charts clear">Phòng nhân sự</p>
+                                                        </td>
+                                                    </tr> 
+                                                    <tr> 
+                                                        <td class="bg-hover"></td> 
+                                                        <td>001</td>
                                                         <td class="user-charts"><a href="javascript:void(0)" class="avata-user"><img src="http://coca.dev/wp-content/themes/game_coca/images/avata.png" alt=""></a></td>
                                                         <td class="info-user-charts">
                                                             <p class="name-user-charts clear">Nguyen A 100 diem</p>

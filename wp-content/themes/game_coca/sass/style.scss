@@ -1328,10 +1328,11 @@ legend{
 #scrollbar2 .overview {
     list-style: none;
     position: absolute;
-    left: 26px;
+    left: 0;
     top: 0;
     margin: 0;
     padding: 10px 0;
+    width:90%;
 }
 #scrollbar2 .viewport {
     height: 600px;
@@ -1354,19 +1355,23 @@ legend{
 .border-left-table{
     
 }
-#scrollbar2 tr:before {
+#scrollbar2 tr td.bg-hover:before {
     border-color: #850305 transparent transparent transparent;
     border-style: solid;
     border-width: 10px;
     height: 0;
     width: 0;
     position: absolute;
-    top: 35px;
+    top: 25px;
     content: "";
     left: 0;
     transform: rotate(-90deg);
     z-index: 5;
 }
-#scrollbar2 tr{
+#scrollbar2 tr td.bg-hover{
     position:relative;
+    border-top:none !important;
+}
+#scrollbar2 tr:hover td.bg-hover{
+    border-top: 1px solid #b81a24 !important;
 }
