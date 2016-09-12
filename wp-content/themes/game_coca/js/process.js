@@ -60,6 +60,8 @@ $(document).ready(function () {
     $scrollbar.tinyscrollbar();
 
     $scrollbar_two.tinyscrollbar();
+
+    
 });
 
 $(document).on('click', '.btn-select', function (e) {
