@@ -112,9 +112,10 @@
                                 
 
                             </div>
-
                             <div class="effect-right-form"></div>
-                            <div class="effect-left-form"></div>
+                            <div class="effect-left-form-one"></div>
+                            <div class="effect-left-form-two"></div>
+                      
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane " id="regulation">
@@ -199,10 +200,10 @@
                         
                         </div>
                         
-
                         <div class="effect-right-form"></div>
-                        <div class="effect-left-form"></div>
-                    
+                        <div class="effect-left-form-one"></div>
+                        <div class="effect-left-form-two"></div>
+        
                 </div>
                     </div>
                     <div class="effect-background-rule"></div>

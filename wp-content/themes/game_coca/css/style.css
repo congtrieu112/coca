@@ -1583,4 +1583,22 @@ legend {
   margin-top: 15px;
 }
 
+.effect-left-form-one {
+  width: 157px;
+  height: 71px;
+  background: url(../images/effect-left-form-one.png) no-repeat;
+  top: 150px;
+  left: -100px;
+  position: absolute;
+}
+
+.effect-left-form-two {
+  width: 81px;
+  height: 57px;
+  background: url(../images/effect-left-form-two.png) no-repeat;
+  top: 58%;
+  left: -170px;
+  position: absolute;
+}
+
 /*# sourceMappingURL=style.css.map */
