@@ -92,7 +92,7 @@
 										<i class="chance-none"></i>
 		                    		</div>
 		                    		<div class="status-stat-test col-md-4">
-										Bạn đã trả lời : 5/5
+										Bạn đã trả lời : 5/15
 		                    		</div>
 		                    		<div class="status-stat-test col-md-4">
 										<i class="glyphicon glyphicon-time"></i> 15:00

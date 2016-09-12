@@ -1405,3 +1405,113 @@ legend{
     right:0;
     padding: 0 9px !important;
 }
+.rule-game{
+    text-align: left;
+}
+.rule-game > li:last-child > a{
+   border-bottom: 37px solid #b81a24  !important; 
+    z-index: 4;
+    padding: 0 30px !important;  
+}  
+.rule-game > li:first-child > a{
+    border-bottom: 37px solid #b81a24  !important; 
+}
+.rule-contend  .panel{
+    max-width: 709px;
+}
+.rule-contend{
+    position:relative;
+}
+
+.rule-page {
+    min-height: 808px;
+    background: url(../images/people-background.png) no-repeat;
+    background-position: right;
+    padding-top: 113px;
+}
+.rule-max-scroll{
+    max-width: 561px;
+    margin: 30px auto;
+    position: relative;
+}
+#scrollbar1{
+  position: relative;  
+}
+
+
+#scrollbar3 .overview {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+#scrollbar3 .viewport{
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+#scrollbar3 .scrollbar {
+    position: absolute;
+    background-position: 0 0;
+    right: 0px;
+    top: 0;
+    width: 1px;
+    background-color: #dedede;
+}
+
+#scrollbar3 .thumb {
+    height: 20px;
+    width: 6px;
+    background-color: #666;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.nav-tabs{
+    border-bottom:none;
+}
+.effect-background-rule{
+    width: 175px;
+    height: 59px;
+    position:absolute;
+    top: 0;
+    right:346px;
+    background:url(../images/effect-background-rule.png) no-repeat;
+}
+.regulation-content article img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.regulation-content .description-article,.regulation-content .title-articlee{
+    color: #ffffff;
+}
+.title-department-prize{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "UTMAvoBold";
+    text-transform: uppercase;   
+}
+.number-prize-department{
+    font-size: 18px;
+    font-family: "UTMAvo";
+    color:#ffffff;
+}
+.regulation-content .col-md-6{
+    padding-left:70px;
+}
+.regulation-content .line-mark{
+    margin: 30px 24px;
+}
+.regulation-content .top-personal{
+    margin-top: 15px;
+}

@@ -45,132 +45,172 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="fix-center">
                     <ul class="nav navbar-nav max-with-menu coca-menu-top">
-                        <li class="active"><a href="#"> <span >TRANG CHỦ</span></a></li>
-                        <li><a href="#"><span>TRANH TÀI NGAY</span></a></li>
-                        <li><a href="#"><span>Thể lệ & Giải thưởng</span></a></li>
-                        <li><a href="#"><span>Bảng xếp hạng</span></a></li>
-                        <li><a href="#"><span>kết quả</span></a></li>
-                        <li><a href="#"><span>Đăng nhâp</span></a></li>
+                        <li class="active"><a href="javascript:void(0)"> <span >TRANG CHỦ</span></a></li>
+                        <li><a href="javascript:void(0)"><span>TRANH TÀI NGAY</span></a></li>
+                        <li><a href="javascript:void(0)"><span>Thể lệ & Giải thưởng</span></a></li>
+                        <li><a href="javascript:void(0)"><span>Bảng xếp hạng</span></a></li>
+                        <li><a href="javascript:void(0)"><span>kết quả</span></a></li>
+                        <li class="loged">
+                            <a href="javascript:void(0)" class="avata-user"><img src="<?php print THEME_IMG_URI; ?>avata.png" alt=""></a>
+                            <a href="javascript:void(0)" class="profile-user">Nguyễn Văn A</a> 
+                            <a href="javascript:void(0)" class="logout-user">Đăng xuất</a>
+                        </li>
                     </ul>
+                </div>
+                    
                    
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
     </header>
-    <main>
+    <main class="rule-page content-width">
            
-            <div id="signupbox"  class="mainbox">
-                <div class="panel panel-info ">
-                    <div class="panel-heading col-md-offset-1 col-md-10 col-md-offset-1">
-                        <div class="panel-title clear">Đăng ký</div>
-                        <p class="content-info-form clear">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>  
-                    <div class="panel-body col-md-offset-2 col-md-8 col-md-offset-2" >
-                        <form id="signupform" class="form-horizontal" role="form">
+            <div id="signupbox"  class="mainbox ">
+                <ul class="nav nav-tabs start-text rule-game" role="tablist">
+                    <li role="presentation" class="active"><a href="#rule" aria-controls="rule" role="tab" data-toggle="tab">THỂ LỆ </a></li>
+                    <li role="presentation"><a href="#regulation" aria-controls="regulation" role="tab" data-toggle="tab">GIẢI THƯỞNG</a></li>
+                   
+                </ul>
+                <div class="tab-content rule-contend">
+                    <div role="tabpanel" class="tab-pane active" id="rule">
+                        <div class="panel panel-info ">
+                              
 
-                            <div id="signupalert" style="display:none" class="alert alert-danger">
-                                <p>Error:</p>
-                                <span></span>
-                            </div>
-                            <div class="form-group">
-                                <label for="firstname" class="col-md-4 control-label">Tên bạn</label>
-                                <div class="col-md-8">
-                                    <input type="text" class="form-control" name="firstname" >
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="lastname" class="col-md-4 control-label">Họ bạn</label>
-                                <div class="col-md-8">
-                                    <input type="text" class="form-control" name="lastname" >
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email" class="col-md-4 control-label">Mail công cty</label>
-                                <div class="col-md-8">
-                                    <input type="email" class="form-control" name="email" >
-                                </div>
-                            </div>
+                            <div class="conent-help rule-max-scroll">
+                                <div id="help-play">
+                                    <div id="scrollbar3">
+                                        <div class="scrollbar" style="height: 580px;"><div class="track" style="height: 580px;"><div class="thumb" style="top: 0px; height: 130.624px;"><div class="end"></div></div></div></div>
+                                        
+                                        <div class="conent-play clear viewport">
+                                            <div class="overview">
+                                                <h2 class="clear play-game-title">cách chơi</h2>
+                                                <br><br>
+         
+                                                Hãy cùng thử thách kiến thức và hiểu biết của bạn về hệ thống Success Factors - Dữ liệu nhân viên với trò chơi chạy đua công nghệ! <br><br>
 
-                            <div class="form-group">
-                                <label for="email" class="col-md-4 control-label">Phòng ban</label>
-                                <div class="col-md-8">
-                                    
-                                    <a class="btn  btn-select btn-select-light">
-                                        <input type="hidden" class="btn-select-input" id="" name="" value="" />
-                                        <span class="btn-select-value clear"><?php _e('Chọn phòng ban','coca'); ?></span>
-                                        <span class='btn-select-arrow glyphicon glyphicon-triangle-bottom'></span>
-                                        <ul>
-                                            <?php 
-                                              $args = array(  'post_type'=> 'department','posts_per_page' => -1 );
-                                              $myposts = get_posts( $args );
-                                              foreach ( $myposts as $post ) :  ?>
-                                              <li><?php print $post->post_title; ?></li>
-                                               <?php endforeach; 
-                                                  wp_reset_postdata();
-                                               ?>
+                                                Mỗi người chơi sẽ có 3 "mạng" (lượt chơi) khi mới bắt đầu tham gia. Mỗi mạng sẽ có thời gian tối đa là 1 phút 30 giây. Trong mỗi mạng, người chơi phải trả lời 15 câu hỏi ngẫu nhiên từ chương trình. <br><br>
+
+                                                Mời thêm người chơi, nhận ngay mạng thưởng! <br><br>
+
+                                                - Để nhận mạng thưởng, bạn có thể gửi lời mời đến một đồng nghiệp khác bất kì trong công ty cùng chơi thì cả hai người sẽ được tặng 1 mạng. Tuy nhiên, sau đó hai <br><br>
+                                                Hãy cùng thử thách kiến thức và hiểu biết của bạn về hệ thống Success Factors - Dữ liệu nhân viên với trò chơi chạy đua công nghệ! <br><br>
+
+                                                Mỗi người chơi sẽ có 3 "mạng" (lượt chơi) khi mới bắt đầu tham gia. Mỗi mạng sẽ có thời gian tối đa là 1 phút 30 giây. Trong mỗi mạng, người chơi phải trả lời 15 câu hỏi ngẫu nhiên từ chương trình. <br><br>
+
+                                                Mời thêm người chơi, nhận ngay mạng thưởng! <br><br>
+
+                                                - Để nhận mạng thưởng, bạn có thể gửi lời mời đến một đồng nghiệp khác bất kì trong công ty cùng chơi thì cả hai người sẽ được tặng 1 mạng. Tuy nhiên, sau đó hai 
+                                            </div>
                                             
-                                        </ul>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email" class="col-md-4 control-label">Cấp bậc</label>
-                                <div class="col-md-8">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input class="magic-radio" type="radio" name="radio" id="1" value="option1">
-                                            <label for="1">
-                                               <?php _e('Quản lý','coca'); ?> 
-                                            </label>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input class="magic-radio" type="radio" name="radio" id="2" value="option2">
-                                            <label for="2">
-                                                <?php _e('Nhân viên','coca'); ?>
-                                            </label>
                                         </div>
                                     </div>
+                                    
                                 </div>
+                                
+                                
+
                             </div>
 
-
-
-                            
-                            
-                            <div class="form-group">
-                                <label for="password" class="col-md-4 control-label">Password</label>
-                                <div class="col-md-8">
-                                    <input type="password" class="form-control" name="passwd" >
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="password" class="col-md-4 control-label">Confirm Password</label>
-                                <div class="col-md-8">
-                                    <input type="password" class="form-control" name="re-passwd" >
-                                </div>
-                            </div>
-
-
-
-                            <div class="form-group">
-                                <!-- Button -->                                        
-                                <div class="col-md-offset-4 col-md-8">
-                                    <button  id="btn-signup" type="button" class="btn btn-info clear" >Tạo tài khoản</button>
-                                      
-                                </div>
-                            </div>
-
-                            <?php wp_nonce_field( 'register-game', 'coca-register-form' ); ?>
-
-
-
-                        </form>
+                            <div class="effect-right-form"></div>
+                            <div class="effect-left-form"></div>
+                        </div>
                     </div>
-                    <div class="effect-right-form"></div>
-                    <div class="effect-left-form"></div>
+                    <div role="tabpanel" class="tab-pane " id="regulation">
+                        <div class="panel panel-info ">
+                    
+                        
+                        <div class="row">
+                            <div class="prize-list regulation-content">
+                                <div class="top-personal">
+                                    <div class="chat-bubble">
+                                      cá nhân
+                                      <div class="chat-bubble-arrow-border"></div>
+                                    </div>
+                                     <article class="col-md-12">
+                                        <div class="image-fixed">
+                                            <img src="<?php print THEME_IMG_URI; ?>prize-first.png" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="info-article">
+                                            <h1 class="title-articlee clear">Giải nhất</h1> 
+                                            <p class="description-article clear">
+                                                Một chuyến du lịch trong nước <br>
+                                                tiêu chuẩn 4*, 2 ngày 1 đêm cho 2 người
+                                            </p> 
+                                        </div>
+                                    </article>  
+                                      
+                                    <article class="col-md-4">
+                                        <div class="image-fixed">
+                                            <img src="<?php print THEME_IMG_URI; ?>prize-second.png" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="info-article">
+                                            <h1 class="title-articlee clear">Giải nhì: 300 điểm</h1> 
+                                            <p class="description-article clear">
+                                                Một chiếc điện thoại <br>
+                                                OPPO S1S 
+                                            </p> 
+                                        </div>
+                                    </article> 
+                                    <article class="col-md-4">
+                                        <div class="image-fixed">
+                                            <img src="<?php print THEME_IMG_URI; ?>prize-third.png" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="info-article">
+                                            <h1 class="title-articlee clear">Giải ba</h1> 
+                                            <p class="description-article clear">
+                                                Một camera <br /> quay phim 360 độ
+                                            </p> 
+                                        </div>
+                                    </article> 
+                                    <article class="col-md-4">
+                                        <div class="image-fixed">
+                                            <img src="<?php print THEME_IMG_URI; ?>prize-encourage.png" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="info-article">
+                                            <h1 class="title-articlee clear">Giải khuyến khích</h1> 
+                                            <p class="description-article clear">
+                                                Một cặp vé <br />xem phim CGV
+                                            </p> 
+                                        </div>
+                                    </article> 
+
+                                </div>
+                                
+                                <div class="top-department">
+                                    <div class="line-mark"></div>
+                                    <div class="chat-bubble">
+                                      Phòng ban
+                                      <div class="chat-bubble-arrow-border"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="clear title-department-prize">Nhiều người tham gia nhất:</h1>
+                                        <p class="clear number-prize-department">1.000.000 VND</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="clear title-department-prize">Điểm trung bình cao nhất:</h1>
+                                        <p class="clear number-prize-department">1.000.000 VND</p>
+                                    </div>
+                                </div>
+                                
+                            
+                        </div>
+                        
+                        </div>
+                        
+
+                        <div class="effect-right-form"></div>
+                        <div class="effect-left-form"></div>
+                    
                 </div>
+                    </div>
+                    <div class="effect-background-rule"></div>
+                </div>
+                
+                    
+                
+                
             </div> 
 
 

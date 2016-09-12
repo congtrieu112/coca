@@ -56,10 +56,12 @@ $(document).ready(function () {
     });
     var $scrollbar = $("#scrollbar1");
     var $scrollbar_two = $("#scrollbar2");
+    var $scrollbar_three = $("#scrollbar3");
 
     $scrollbar.tinyscrollbar();
 
     $scrollbar_two.tinyscrollbar();
+    $scrollbar_three.tinyscrollbar();
 
     
 });
