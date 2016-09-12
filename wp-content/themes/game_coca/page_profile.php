@@ -74,124 +74,44 @@
                         <h1 class="title-prize-list">profile</h1>
                         <div class="row">
                             <div class="col-md-8">
-                            <div class="prize-list">
-                                <div class="top-personal">
-                                    <div class="chat-bubble">
-                                      cá nhân
-                                      <div class="chat-bubble-arrow-border"></div>
-                                    </div>
-                                    <div class="block-item">
-                                        <div class="block-prize">
-                                            <div class="effect-prize-second-1"></div>
-                                            <div class="effect-prize-second-2"></div>
-                                            <div class="prize-block">
-                                                <div class="foot-block"></div>
-                                                <div class="heart-second avatar" style="background:url(<?php print THEME_IMG_URI; ?>avata-prize.png) 50% 0%;"></div>
-                                                <div class="prize-second"></div>
-                                            </div>
-                                            <div class="info-block-prize">
-                                                <p class="name-person clear">Nguyen van A</p>
-                                                <p class="department-on-person clear">Phòng Nhân sự</p>
-                                                <p class="point-person clear">150 điểm</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="block-item">
-                                        <div class="block-prize">
-                                            <div class="effect-prize-first-left"></div>
-                                            <div class="effect-prize-first"></div>
-                                            <div class="prize-block first-block">
-                                                <div class="foot-block-first"></div>
-                                                <div class="heart-first avatar" style="background:url(<?php print THEME_IMG_URI; ?>avata-prize-first.png) 50% 0%;"></div>
-                                                <div class="prize-first"></div>
-                                            </div>
-                                            <div class="info-block-prize">
-                                                <p class="name-person clear">Nguyen van A</p>
-                                                <p class="department-on-person clear">Phòng Nhân sự</p>
-                                                <p class="point-person clear">150 điểm</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="block-item">
-                                        <div class="block-prize">
-                                            <div class="effect-prize-thirst-left"></div>
-                                            <div class="effect-prize-thirst"></div>
-                                            <div class="prize-block">
-                                                <div class="foot-block-thirst"></div>
-                                                <div class="heart-thirst avatar" style="background:url(<?php print THEME_IMG_URI; ?>avata-prize-thirst.png) 50% 0%;"></div>
-                                                <div class="prize-thirst"></div>
-                                            </div>
-                                            <div class="info-block-prize">
-                                                <p class="name-person clear">Nguyen van A</p>
-                                                <p class="department-on-person clear">Phòng Nhân sự</p>
-                                                <p class="point-person clear">150 điểm</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                
-                                <div class="top-department">
-                                    <div class="line-mark"></div>
-                                    <div class="chat-bubble">
-                                      Phòng ban
-                                      <div class="chat-bubble-arrow-border"></div>
-                                    </div>
-                                    <div class="block-item">
-                                        <div class="block-prize">
-                                           
-                                            <div class="prize-block">
-                                                <div class="foot-block"></div>
-                                                <div class="heart-second avatar" style="background:#ffffff 50% 0%;">
-                                                    <div class="info-block-prize">
-                                                        <p class="name-person clear">bảo vệ</p>
-                                                        <p class="department-on-person clear">Số điệm trung bình</p>
-                                                        <p class="point-person clear">150 điểm</p>
-                                                    </div>
-                                                </div>
-                                                <div class="prize-second"></div>
-                                            </div>
+                            <div class="profile-first">
+                                <div class="col-md-4">
+                                   <div class="profile-avata-block">
+                                       <div class="avata-user-profile avata-mark" style="background:url(<?php print THEME_IMG_URI ?>avata-user.png) 50% 0%;">
+                                        <div class="change-image">
                                             
                                         </div>
-                                    </div>
-                                    <div class="block-item">
-                                        <div class="block-prize">
-                                            
-                                            <div class="prize-block ">
-                                                <div class="foot-block-first"></div>
-                                                <div class="heart-first avatar" style="background:#ffffff 50% 0%;">
-                                                    <div class="info-block-prize">
-                                                        <p class="name-person clear">nhân sự</p>
-                                                        <p class="department-on-person clear">Số điệm trung bình</p>
-                                                        <p class="point-person clear">150 điểm</p>
-                                                    </div>
-                                                </div>
-                                                <div class="prize-first"></div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="block-item">
-                                        <div class="block-prize">
-                                            
-                                            <div class="prize-block">
-                                                <div class="foot-block-thirst"></div>
-                                                <div class="heart-thirst avatar" style="background:#ffffff 50% 0%;">
-                                                    <div class="info-block-prize">
-                                                        <p class="name-person clear">nhân sự</p>
-                                                        <p class="department-on-person clear">Số điệm trung bình</p>
-                                                        <p class="point-person clear">150 điểm</p>
-                                                    </div>
-                                                </div>
-                                                <div class="prize-thirst"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
+                                   </div>
+                                   <div class="circle">
+                                       <img src="<?php print THEME_IMG_URI ?>circle.png" alt="">
+                                       <p class="info-change"><a href="javascript:void(0)"><i class="fa fa-upload"></i> Thay ảnh</a></p>
+                                   </div>
+                                   </div> 
+                                   
+                                   
+                               </div>
+                               <div class="col-md-8">
+                                   <div class="info-user-top">
+                                   <table>
+                                       <tr>
+                                           <td >Tên nhân viên</td>
+                                           <td class="right-info-user">Nguyễn Văn A</td>
+                                       </tr>
+                                       <tr>
+                                           <td >Phòng ban</td>
+                                           <td class="right-info-user">Hành chính văn phòng</td>
+                                       </tr>
+                                       <tr>
+                                           <td >Password</td>
+                                           <td class="right-info-user"><input disabled type="password" name="password-user" value="password"> <a href="javascript:void(0)" class="change-info-text"><i class="fa fa-pencil"></i>thay đổi</a></td>
+                                       </tr>
+                                   </table> 
+                                       
+                                   </div> 
+                               </div>
                             </div>
-                        </div>
+                               
+                            </div>
                         <div class="col-md-4">
 
                             <div class="charts">
