@@ -1,8 +1,8 @@
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="poup-revews" role="document">
-  
     <div class="modal-content clear-bg ">
         <div id="signupbox"  class="mainbox">
+
               <ul class="nav nav-tabs start-text" role="tablist">
                 <li class="first"><a href="javascript:void(0)"><i class="glyphicon glyphicon-triangle-left"></i></a></li>
                 <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">1</a></li>
@@ -16,7 +16,10 @@
                 <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">9</a></li>
                 <li class="end"><a href="javascript:void(0)"><i class="glyphicon glyphicon-triangle-right"></i></a></li>
               </ul>
+
               <div class="tab-content">
+                                            <h1 class="title-prize-list right-noficatioin"><a href="javascript:void(0)" class="close_nofication"><img src="<?php print THEME_IMG_URI ?>icon-close.png" alt=""></a></h1>
+
                 <div role="tabpanel" class="tab-pane active" id="home">
                   <div class="panel panel-info ">
                         <div class="panel-heading col-md-offset-1 col-md-10 col-md-offset-1">
