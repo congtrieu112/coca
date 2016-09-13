@@ -57,11 +57,15 @@ $(document).ready(function () {
     var $scrollbar = $("#scrollbar1");
     var $scrollbar_two = $("#scrollbar2");
     var $scrollbar_three = $("#scrollbar3");
+    var $scrollbar_four = $("#scrollbar4");
+    // var $scrollbar_five = $("#scrollbar5");
 
     $scrollbar.tinyscrollbar();
 
     $scrollbar_two.tinyscrollbar();
     $scrollbar_three.tinyscrollbar();
+    $scrollbar_four.tinyscrollbar();
+    // $scrollbar_five.tinyscrollbar();
 
     
 });

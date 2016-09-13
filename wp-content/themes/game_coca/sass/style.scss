@@ -29,6 +29,15 @@ $color-global: rgb(230, 32, 45);
          url('../fonts/UTMAvo.ttf') format('truetype'),
          url('../fonts/UTMAvo.svg#UTMAvo') format('svg');
 }
+@font-face {
+    font-family: 'UTMAvoItalic';
+    src: url('../fonts/UTMAvoItalic.eot');
+    src: url('../fonts/UTMAvoItalic.eot') format('embedded-opentype'),
+         url('../fonts/UTMAvoItalic.woff2') format('woff2'),
+         url('../fonts/UTMAvoItalic.woff') format('woff'),
+         url('../fonts/UTMAvoItalic.ttf') format('truetype'),
+         url('../fonts/UTMAvoItalic.svg#UTMAvoItalic') format('svg');
+}
 
 *{
 	margin :0;
@@ -1245,6 +1254,7 @@ legend{
 .table-charts{
     padding-right: 10px;
     margin-top: 15px;
+    min-height: 600px;
 }
 .charts td{
     vertical-align:inherit !important;
@@ -1352,9 +1362,7 @@ legend{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
-.border-left-table{
-    
-}
+
 #scrollbar2 tr td.bg-hover:before {
     border-color: #850305 transparent transparent transparent;
     border-style: solid;
@@ -1597,9 +1605,501 @@ legend{
     font-size: 14px;
 }
 .info-user-top td{
-    min-width: 200px;
+    min-width: 140px;
     padding:10px 0;
 }
 .profile-first{
     margin-top: 20px;
 }
+.line-partition{
+    width: 100%;
+    float: left;
+    border-bottom:1px solid #ffffff;
+    margin:25px 0;
+}
+.content-max-profile-left{
+    max-width: 590px;
+    margin:0 auto;
+}
+.style-text-label-life{
+    font-size:18px;
+    color: #ffffff;
+    font-family: "UTMAvo";
+    vertical-align: top;
+    min-width: 130px;
+    display: inline-block;
+
+}
+.info-life .chance{
+    padding-right: 60px;
+    text-align: center;
+    vertical-align: super;
+}
+.more-point{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "UTMAvoBold";
+    vertical-align: text-bottom;
+    margin-left: -20px;
+}
+.point-user-id{
+    min-width: 113px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#ffffff;
+    font-size: 18px;
+    font-family: "UTMAvoBold";
+    color: #e6202d; 
+    border-radius:15px;
+    padding: 0 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -5px;
+}
+.pize-department {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0 !important;
+}
+.center-button{
+    width: 113px;
+    height: 40px;
+    margin:0 auto;
+    display: block;
+}
+.pd{
+    padding:0 20px;
+}
+.info-life {
+    margin-bottom: 25px;
+}
+.info-profile-thirst{
+    font-size: 18px;
+    font-family: "UTMAvo";
+    color:#ffffff;
+    text-transform: uppercase;
+}
+.button-invite{
+    width: 218px;
+    height: 53px;
+    font-size: 18px;
+    font-family: "UTMAvoBold_Italic";
+    color: #e6202d !important;
+    text-align: center;
+    background-color: #ffffff;
+    line-height: 53px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin:10px auto;
+    display: block;
+    cursor: pointer;
+}
+.stt{
+    font-family: "UTMAvoBold_Italic";
+    font-size: 17.42px;
+    color:#ffffff;
+}
+.date-user-play{
+    font-size: 14px;
+    color: #ffffff;
+    font-family:"UTMAvo";
+}
+.point-user{
+    font-size: 18px;
+    font-family: "UTMAvoBold";
+    text-transform: uppercase;
+}
+.charts tr:hover .date-user-play,.charts tr:hover .stt{
+    color: #e6202d;
+}
+
+
+#scrollbar4 {
+    position: relative;
+}
+
+#scrollbar4 .scrollbar {
+    position: absolute;
+    background-position: 0 0;
+    right: 10px;
+    top: 0;
+    width: 1px;
+    background-color: #dedede;
+}
+
+#scrollbar4 .overview {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 10px 0;
+    width:90%;
+}
+#scrollbar4 .viewport {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+#scrollbar4 .thumb {
+    height: 20px;
+    width: 6px;
+    background-color: #666;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#scrollbar4 tr td.bg-hover:before {
+    border-color: #850305 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 25px;
+    content: "";
+    left: 0;
+    transform: rotate(-90deg);
+    z-index: 5;
+}
+#scrollbar4 tr td.bg-hover{
+    position:relative;
+    border-top:none !important;
+}
+#scrollbar4 tr:hover td.bg-hover{
+    border-top: 1px solid #b81a24 !important;
+}
+#signupbox .charts .profile-end{
+        bottom: 80px !important;
+}
+
+.left-noficatioin{
+    left: 0;
+    padding: 0 50px !important;
+}
+.block-invite tr{
+    width: 50%;
+    float: left;
+}
+
+
+#scrollbar5 {
+    position: relative;
+}
+
+#scrollbar5 .scrollbar {
+    position: absolute;
+    background-position: 0 0;
+    right: 10px;
+    top: 0;
+    width: 1px;
+    background-color: #dedede;
+}
+
+#scrollbar5 .overview {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 10px 0;
+    width:90%;
+}
+#scrollbar5 .viewport {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+#scrollbar5 .thumb {
+    height: 20px;
+    width: 6px;
+    background-color: #666;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#scrollbar5 tr td.bg-hover:before {
+    border-color: #850305 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 25px;
+    content: "";
+    left: 0;
+    transform: rotate(-90deg);
+    z-index: 5;
+}
+#scrollbar5 tr td.bg-hover{
+    position:relative;
+    border-top:none !important;
+}
+#scrollbar5 tr:hover td.bg-hover{
+    border-top: 1px solid #b81a24 !important;
+}
+.info-nofication-invite{
+    color: #282828;
+    font-family: "UTMAvo";
+    font-size: 14px;
+    margin-bottom: 20px !important; 
+}
+.invite-poup{
+    padding:20px;
+}
+#btn-invite{
+    font-size: 14px;
+    font-family: "UTMAvoBold_Italic";
+    text-transform: uppercase;
+    border-color: transparent;
+    width: 217px;
+    border-radius: 20px;
+    height: 53px;
+    line-height: 53px;
+    background-color: #d91e2b ;
+    color: #ffffff ;
+    display: block;
+    margin: 0 auto !important;
+
+}
+#btn-invite span{
+    position: relative;
+    z-index: 1;
+}
+#btn-invite span:before{
+    background: rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 27px;
+    position: absolute;
+    content: "";
+    top: 8px;
+    transform: skewX(21deg);
+    left: 5px;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.title-content-invite{
+    font-family: "UTMAvoBold";
+    font-size: 18px;
+    color: #282828;
+}
+.block-invite td{
+    color: #282828;
+    font-size: 14px;
+    font-family: "UTMAvoBold_Italic";
+    border-top:1px solid #b81a24 !important;
+}
+.block-invite .name-user-charts{
+    color: #282828;
+}
+.block-invite .point-user-charts{
+    color: #282828;
+}
+.line-login{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #b81a24;
+    margin: 25px 0;
+}
+
+.content-login{
+    color: #282828;
+    font-size: 18px;
+    font-family: "UTMAvo";
+}
+
+.register-login-a{
+    color: #e6202d;
+    text-decoration: underline;
+}
+
+.title-reslut{
+    font-family: "UTMAvoBold";
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px !important;
+}
+.icon-flag{
+    width: 100px;
+    height: 53px;
+    background: url(../images/icon-flag.png) no-repeat;
+    margin:15px auto;
+}
+.text-number-result{
+    color: #ffffff;
+    font-family: "UTMAvo";
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px !important;
+}
+.review-result{
+    width: 187px;
+    height: 39px;
+    line-height: 39px;
+    margin: auto;
+    display: block;
+    background-color:#ffffff;
+    color: #e6202d;
+    font-family: "UTMAvoBold_Italic";
+    font-size: 12.86px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius:20px;
+
+}
+.icon-view-result{
+    width: 19px;
+    height: 27px;
+    background:url(../images/icon-view-result.png) no-repeat;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 3px;
+}
+.sum-point-result{
+    margin-top: 70px !important;
+    margin-bottom: 15px !important;
+    font-size: 24px;
+    font-family: "UTMAvoBold";
+    color: #ffffff;
+    text-align: center;
+    text-transform:uppercase;
+}
+.content-sum-point-result{
+    font-size: 41.58px;
+    color: #e6202d;
+    font-family: "UTMAvoBold";
+    text-align: center;
+    margin: 0 auto;
+    background:url(../images/content-sum-point-result.png) no-repeat;
+    width: 516px;
+    height: 75px;
+    line-height: 75px;
+}
+.continue-game{
+    max-width: 419px;
+    margin:40px auto;
+    display: flex;
+
+}
+.block-left-game, .block-right-game{
+    width: 50%;
+    float: left;
+
+}
+.more-chance{
+    font-size: 13.14px;
+    font-family: "UTMAvo";
+    color: #ffffff;
+    text-align: center;
+    min-height: 40px;
+}
+.sent-invite-buttom{
+    color: #e6202d;
+    font-size: 12.86px;
+    font-family: "UTMAvoBold_Italic";
+    background-color:#ffffff;
+    border-radius:20px;
+    width: 157px;
+    height: 39px;
+    line-height: 39px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin:auto;
+}
+.icon-person{
+    width: 23px;
+    height: 26px;
+    background:url(../images/icon-person.png) no-repeat;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 10px;
+}
+.icon-process{
+    width: 19px;
+    height: 21px;
+    background:url(../images/icon-process.png) no-repeat;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 10px;
+}
+.line-foot-play{
+    border-bottom:6px solid #ffffff;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.background-person-play{
+    width: 222px;
+    height: 267px;
+    position:absolute;
+    right: 0;
+    bottom: 18px;
+    background:url(../images/background-cover-play.png) no-repeat;
+}
+.clear-bg{
+    background-color:transparent;
+    box-shadow: none;
+}
+.title-explain{
+    color: #e6202d;
+    font-size: 18px;
+    font-family: "UTMAvoBold";
+    text-transform: uppercase;
+    margin: 10px 0 !important;
+}
+
+.content-explain{
+    font-size: 18px;
+    color: #e6202d;
+    font-family: "UTMAvo";
+}
+.explain{
+    background-color:#ffffff;
+    padding:10px;
+    position:relative;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    box-shadow: 5px 7px 1px #b81a24;
+}
+.review-page{
+    position:absolute;
+    bottom: -22px;
+    left: 49%;
+   transform: translate(-50%,0);
+   margin: 0;
+}
+.flase{
+    width:92px;
+    height: 35px;
+    border:2px solid #ffffff;
+    border-radius:10px;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 30px;
+    position: absolute;
+    left: -60px;
+    top: 4px;
+    padding-left:10px;
+}
+
+    

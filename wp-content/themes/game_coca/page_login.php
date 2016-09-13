@@ -1,6 +1,6 @@
 <?php
  /* 
- * Template Name: Home
+ * Template Name: login
  */ 
  ?>
  <!DOCTYPE html>
@@ -135,8 +135,24 @@
         </div>
         <a href="javascript:void(0);" class="logo-center"></a>
     </footer>
+    <?php get_template_part('template/login' ); ?>
 
     <?php wp_footer(); ?>
-    
+    <script>
+    $(document).ready(function () {
+        
+
+        $(".bs-example-modal-sm").modal('show'); 
+        $('.bs-example-modal-sm').on('shown.bs.modal', function (e) {
+          var $scrollbar_five = $("#scrollbar5"); 
+            $scrollbar_five.tinyscrollbar();
+        }) 
+        
+        $('a.close_nofication').click(function(event) {
+            $(".bs-example-modal-sm").modal('hide');   
+        });
+        
+    });
+</script>
   </body>
 </html>
