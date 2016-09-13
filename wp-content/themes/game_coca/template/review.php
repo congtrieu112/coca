@@ -55,7 +55,7 @@
                       <div class="clearfix"></div>
 
                       <div class="col-md-12">
-                        <input class="magic-radio" type="radio" name="radio" id="3" value="option1">
+                        <input checked class="magic-radio" type="radio" name="radio" id="3" value="option1">
                         <label for="3">
                           C. Tạo điều kiện thuận lợi để tăng hiệu suất làm việc
                           <span class="flase">Sai</span>
