@@ -10,16 +10,19 @@ require_once get_template_directory() . '/framework/theme.php';
 $customTheme = new SetupQuiz();
 $customTheme->init();
 
-add_action( 'wp_ajax_check_mail', 'check_mail' );
-add_action( 'wp_ajax_nopriv_check_mail', 'check_mail' );
-function check_mail(){
-    $email = get_user_by_email($_POST['email']);
-    $isAvailable = true;
-    if($email){
-        $isAvailable = false;
-    }
-    echo json_encode(array(
-        'valid' => $isAvailable,
-    ));
-    exit();
+
+
+function get_id_of_template($name){
+    $custom = new SetupQuiz();
+    return $custom->get_id_of_template_name($name);
 }
+
+function gui_mail(){
+    $to = 'ittrjeu@gmail.com';
+    $subject = 'The subject';
+    $body = 'The email body content';
+    $headers = array('Content-Type: text/html; charset=UTF-8');
+
+    wp_mail( $to, $subject, $body, $headers );
+}
+

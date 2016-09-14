@@ -8,6 +8,7 @@
       $prize =  get_post_meta($post->ID,"prize",true);
       $department = get_post_meta($post->ID,"department",true);
       $level = get_post_meta($post->ID,"level",true);
+      $stats = get_post_meta($post->ID,"status",true);
 
  
 ?>
@@ -120,6 +121,18 @@
                <p class="description">Level</p>
             </td>
          </tr>
+         <tr class="form-field term-description-wrap">
+            <th scope="row"><label for="description-question">Status</label></th>
+            <td>
+               <select name="status" id="">
+                  <option  value="">--Select status--</option>
+                  <option <?php print ($stats == 0) ? "selected":""; ?> value="0">pedding</option>
+                  <option <?php print ($stats == 1) ? "selected":""; ?> value="1">active</option>
+               </select>
+               <p class="description">Status</p>
+            </td>
+         </tr>
+
 
 
    </tbody>

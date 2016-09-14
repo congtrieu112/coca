@@ -17,6 +17,9 @@ if(is_page_template('page_result.php')){
     get_template_part('template/review');
 }
 get_template_part('template/nofication');
+if(!is_user_logged_in()):
+get_template_part('template/login');
+endif;
 ?>
 <?php wp_footer(); ?>
 </body>

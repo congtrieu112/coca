@@ -61,6 +61,10 @@ if( !class_exists( 'SetupQuiz' ) ) {
 		public function init(){
 			$this->init_Incs_Args();
 			add_action('wp_enqueue_scripts', array($this, 'frontendScripts'));
+
+			if (!current_user_can('administrator') && !is_admin()) {
+				add_filter('show_admin_bar', '__return_false');
+			}
 		}
 
 		public function frontendScripts()
@@ -155,9 +159,20 @@ if( !class_exists( 'SetupQuiz' ) ) {
 			}
 			return $return;
 		}
-		public static function menu(){
 
+		public function get_id_of_template_name($name){
+			$args = [
+				'post_type' => 'page',
+				'fields' => 'ids',
+				'nopaging' => true,
+				'meta_key' => '_wp_page_template',
+				'meta_value' => $name
+			];
+
+			$pages = get_posts( $args );
+			return apply_filters('get_id_of_template_name',array_shift($pages));
 		}
+
 		
 	}
 }

@@ -109,6 +109,16 @@ if ( !class_exists( 'WpQuizCustom' ) ) {
     			$query = get_posts($array);
     			if($query && isset($query[0]->ID)){
     				wp_delete_post($query[0]->ID);
+					delete_post_meta($query[0]->ID,'key_active');
+					delete_post_meta($query[0]->ID,"total_correct_question");
+					delete_post_meta($query[0]->ID,"total_incorrect_question");
+					delete_post_meta($query[0]->ID,"total_point");
+					delete_post_meta($query[0]->ID,"total_time_finish");
+					delete_post_meta($query[0]->ID,"chance");
+					delete_post_meta($query[0]->ID,"prize");
+					delete_post_meta($query[0]->ID,"user_play");
+					delete_post_meta($query[0]->ID,"level");
+					delete_post_meta($query[0]->ID,"department");
     			}
     			
 
@@ -576,6 +586,20 @@ if ( !class_exists( 'WpQuizCustom' ) ) {
 				  'supports' => array( 'title' ),
 			    )
 			  );
+
+			// Table of winners
+			register_post_type( 'manager',
+				array(
+					'labels' => array(
+						'name' => __( 'Manager','wp-quiz' ),
+						'singular_name' => __( 'manager','wp-quiz' )
+					),
+					'public' => true,
+					'has_archive' => true,
+					'rewrite' => array('slug' => 'managers'),
+					'supports' => array( 'title' ),
+				)
+			);
 			  
 
         }

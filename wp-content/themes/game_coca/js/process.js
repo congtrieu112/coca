@@ -112,6 +112,15 @@ function popup(){
         $('.review-poups').modal('show');
     });
 
+
+}
+
+function pouplogin(url){
+    $(".login-form").modal('show');
+    $('.login-form').on('shown.bs.modal', function (event) {
+        var modal = $(this)
+        modal.find('.modal-content input[name="_wp_http_referer"]').val(url);
+    });
 }
 function active_menu() {
 
@@ -171,7 +180,7 @@ function validate_form(){
         var $form = $(e.target);
         var bv = $form.data('bootstrapValidator');
         var $btn = $(this).button('loading');
-        var data = $("#signupform").serialize()+"&action=nth_register_user";
+        var data = $("#signupform").serialize()+"&action=register_user";
 
             $.ajax({
                 type: 'POST',
@@ -180,23 +189,88 @@ function validate_form(){
                 dataType: 'json',
                 async:    false, // for Safari
                 success:  function(data) {
-                    console.log(data.level);
+                    $btn.button('reset');
+
                     if(data.level){
                         $('.error-nofiaction').html('Bạn không phải thuộc cấp bậc quản lý <br /> vui lòng chọn lại cấp bậc');
-                        $btn.button('reset');
-                        $('.bs-example-modal-sm').modal('show');
+                        $('.nofication-poups').modal('show');
+
                     }
 
                 	if(data.success){
-                        $('#signupform')[0].reset();
-                        $('.error-nofiaction').html('Bạn đã đăng ký thành công, vui lòng check mail để kích hoạt tài khoản của bạn');
-                		$btn.button('reset');
-                        $('.bs-example-modal-sm').modal('show');
 
+                        $('.error-nofiaction').html('Bạn đã đăng ký thành công, vui lòng check mail để kích hoạt tài khoản của bạn');
+                        $('.nofication-poups').modal('show');
+                        //$('#signupform')[0].reset();
                 	}
+                    $('.nofication-poups').on('hidden.bs.modal', function (e) {
+                        $("#signupform").bootstrapValidator('resetForm', true);
+
+                    })
+
 
                 }
             });
+
+
+
+    });
+
+
+    $("#loginform").bootstrapValidator({
+        live: 'enabled',
+        fields: {
+            pass: {
+                validators: {
+                    notEmpty: {
+                        message: 'Vui lòng nhập pass '
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Vui lòng nhập email'
+                    },
+                    emailAddress:{
+                        message:"Email không hợp lệ"
+                    },
+
+
+                }
+            },
+
+        }
+    }).on('success.form.bv', function(e) {
+        e.preventDefault();
+
+        var $form = $(e.target);
+        var bv = $form.data('bootstrapValidator');
+        //var $btn = $(this).button('loading');
+        var data = $("#loginform").serialize()+"&action=ajax_login";
+
+        $.ajax({
+            type: 'POST',
+            url:  MyCongfig.AjaxUrl,
+            data: data,
+            dataType: 'json',
+            async:    false, // for Safari
+            success:  function(data) {
+                console.log(data);
+                if(data.loggedin){
+                    $(".nofication-result").html('Đăng nhập thành công').fadeIn('fast');
+                    setTimeout(function(e){
+                        $(".login-form").modal('hide');
+                        location.href=data.url_referer;
+                    },3000);
+                }else{
+                    $(".nofication-result").html('Email hoặc password không đúng').fadeIn('fast');
+                    $("#loginform").bootstrapValidator('resetForm', true);
+                }
+
+
+            }
+        });
 
 
 

@@ -1,4 +1,4 @@
-<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+<div class="modal fade bs-example-modal-sm nofication-poups" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="modal-dialog register-not-manager" role="document">
   <h1 class="title-prize-list right-noficatioin"><a href="javascript:void(0)" class="close_nofication"><img src="<?php print THEME_IMG_URI ?>icon-close.png" alt=""></a></h1>
     <div class="modal-content">

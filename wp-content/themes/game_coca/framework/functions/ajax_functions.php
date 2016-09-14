@@ -14,16 +14,18 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 		public function init(){
 			$ajax_events = array(
 				'register_user'	=> true,
-				'ajax_login'	=> true,
+				'ajax_login'=>true,
+				'check_mail'=>true,
+				'key_active'=>true,
 			);
 			foreach ( $ajax_events as $ajax_event => $nopriv ) {
-				add_action( 'wp_ajax_nth_' . $ajax_event, array( __CLASS__, $ajax_event ) );
+				add_action( 'wp_ajax_' . $ajax_event, array( __CLASS__, $ajax_event ) );
 				if ( $nopriv ) {
-					add_action( 'wp_ajax_nopriv_nth_' . $ajax_event, array( __CLASS__, $ajax_event ) );
+					add_action( 'wp_ajax_nopriv_' . $ajax_event, array( __CLASS__, $ajax_event ) );
 				}
 			}
 
-			
+
 		}
 
 
@@ -71,7 +73,9 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 						'display_name'=>$display_name,
 						'user_id' => $user_id
 					);
-					if(self::create_charts($user)){
+					if($key = self::create_charts($user)){
+						$url_key = admin_url("admin-ajax.php?action=key_active&key=$key");
+						$mail = self::sent_mail($url_key);
 						print json_encode(array('success'=>$user_id));
 						exit();
 
@@ -108,19 +112,21 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 			 
 			//Insert the post into the database
 			$post_id = wp_insert_post( $charts );
+			$key = wp_generate_password( 30, false );
 			if($post_id){
 				update_post_meta($post_id,"chance",$chance);
 				update_post_meta($post_id,"user_play",$user['user_id']);
 				update_post_meta($post_id,"level",$user['level']);
 				update_post_meta($post_id,"department",$user['department']);
-
+				update_post_meta($post_id,"key_active",$key);
+				update_post_meta($post_id,"status",0);
 
 				update_post_meta($post_id,"total_correct_question",0);
 				update_post_meta($post_id,"total_incorrect_question",0);
 				update_post_meta($post_id,"total_point",0);
 				update_post_meta($post_id,"total_time_finish",0);
 				update_post_meta($post_id,"prize",0);
-				return $post_id;
+				return $key;
 			}
 
 
@@ -128,12 +134,63 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 			
 			
 		}
+		public static  function key_active(){
+			require_once(THEME_BACKEND.'active_user.php');
+			exit();
+		}
 
 		public static function ajax_login(){
-			$json = $_POST;
-			if (!wp_verify_nonce($_REQUEST['coca-register-form'],'register-game') ) die( 'Security check' );
-			echo wp_json_encode($json);
-			wp_die();
+			// First check the nonce, if it fails the function will break
+			check_ajax_referer( 'ajax-login-nonce', 'security' );
+
+
+			// Nonce is checked, get the POST data and sign user on
+			$info = array();
+			$email = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
+			$user_name = ($email) ? explode("@", $email) : "";
+			$array_values = array_values($user_name);
+			$user_name = array_shift($array_values);
+			$pass = filter_var($_POST['pass'],FILTER_SANITIZE_STRING);
+			$info['user_login'] = $user_name;
+			$info['user_password'] = $pass;
+
+			$user_signon = wp_signon( $info, false );
+			if ( is_wp_error($user_signon) ){
+				print json_encode(array('loggedin'=>false, 'message'=>__('Wrong username or password.')));
+			} else {
+				print json_encode(array('loggedin'=>true, 'url_referer'=>$_POST['_wp_http_referer']));
+			}
+
+			die();
+
+
+		}
+		public static function check_mail(){
+			$email = get_user_by_email($_POST['email']);
+			$isAvailable = true;
+			if($email){
+				$isAvailable = false;
+			}
+			print  json_encode(array(
+				'valid' => $isAvailable,
+			));
+			exit();
+		}
+
+		public static  function sent_mail($url){
+			$to = 'ittrjeu@gmail.com';
+			$subject = 'The subject';
+			ob_start();
+
+			set_query_var( 'params',  $url );
+			// include $template_name."-".$part_name.".php";
+			require_once(THEME_BACKEND.'template_mail.php');
+			$body = ob_get_contents();
+			ob_end_clean();
+			$headers = array('Content-Type: text/html; charset=UTF-8');
+			wp_mail( $to, $subject, $body, $headers );
+
+
 		}
 
 	}

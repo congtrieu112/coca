@@ -2107,3 +2107,11 @@ legend{
 .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label{
     color: #ffffff;
 }
+#loginform .help-block{
+    color: #a94442;
+}
+
+#btn-invite:hover,#btn-invite:focus,#btn-invite.focus,#btn-invite:active, #btn-invite.active,#btn-invite:visited,#btn-invite:not(:hover) {
+    border-color: transparent !important;
+    border: none !important;
+}

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

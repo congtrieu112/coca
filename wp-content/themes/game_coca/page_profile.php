@@ -151,7 +151,7 @@ do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                             </div>
                                         </div>
                                     </div>
-                                    <button onclick="location.href='<?php print get_page_link(38); ?>'" id="btn-signup" type="button" class="btn btn-info clear profile-end"><span>Chơi lại</span></button>
+                                    <button onclick="location.href='<?php print get_page_link(get_id_of_template('page_test_open.php')); ?>'" id="btn-signup" type="button" class="btn btn-info clear profile-end"><span>Chơi lại</span></button>
                                 </div>  
                                 
 

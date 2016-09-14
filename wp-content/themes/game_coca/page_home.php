@@ -3,6 +3,7 @@
  * Template Name: Home
  */
 get_header();
+gui_mail();
  ?>
 
     <main class="main-home content-width">
@@ -10,7 +11,12 @@ get_header();
             <div class="row">
                 <div class="col-md-6 col-md-offset-6">
                     <h1 class="title-main clear">CHINH PHỤC CÔNG NGHỆ <br /> bứt phá rào cản</h1>
-                    <a href="<?php print get_page_link(38); ?>" class="button-play">Tranh tài ngay</a>
+                    <?php if(is_user_logged_in()): ?>
+                        <a href="<?php print get_page_link(get_id_of_template("page_test_start.php")); ?>" class="button-play"> <span>Tranh tài ngay</span></a>
+                        <?php else : ?>
+                        <a href="javascript:pouplogin('<?php print get_page_link(get_id_of_template("page_test_start.php")); ?>')" class="button-play"> <span>Tranh tài ngay</span></a>
+                    <?php endif;  ?>
+
                 </div>
                 <div class="col-md-9 col-md-offset-3">
                     <div class="prize">

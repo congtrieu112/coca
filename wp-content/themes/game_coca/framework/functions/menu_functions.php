@@ -57,7 +57,7 @@ if( !class_exists( 'TheCoCa_Menu' ) ) {
                         print "<li class='loged'>";
                     		print "<a href='javascript:void(0)' class='avata-user'><img src='".THEME_IMG_URI."avata.png' ></a>";
                         	print "<a href='javascript:void(0)' class='profile-user'> $current_user->display_name</a>";
-                        	print "<a href='javascript:void(0)' class='logout-user'>".__('Đăng nhập','coca')."</a>";
+                        	print "<a href='javascript:void(0)' class='logout-user'>".__('Đăng xuất','coca')."</a>";
                         print "</li>";
                     }else{
 						print "<li class='meunu-li' >";

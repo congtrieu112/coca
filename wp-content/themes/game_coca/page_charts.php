@@ -346,7 +346,7 @@ get_header();
                                         </div>
                                     </div>
                                 </div>  
-                                <button onclick="location.href='<?php print get_page_link(54); ?>'" id="btn-signup" type="button" class="btn btn-info clear"><span>Xếp hạng của bạn</span></button>
+                                <button onclick="location.href='<?php print get_page_link(get_id_of_template('page_profile.php')); ?>'" id="btn-signup" type="button" class="btn btn-info clear"><span>Xếp hạng của bạn</span></button>
 
                             </div>
                         </div>

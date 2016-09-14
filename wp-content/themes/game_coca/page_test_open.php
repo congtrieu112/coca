@@ -55,15 +55,15 @@ get_header();
             							<div class="item-center">
             								<div class="row">
             									<div class="col-md-6">
-            										<input class="magic-radio" type="radio" name="radio" id="1" value="option1">
-            										<label for="1">
-            											<?php _e('Quản lý','coca'); ?> 
+            										<input class="magic-radio" type="radio" name="radio" id="2" value="2">
+            										<label for="2">
+            											<?php _e('Có nhân viên trực tiếp','coca'); ?>
             										</label>
             									</div>
             									<div class="col-md-6">
-            										<input class="magic-radio" type="radio" name="radio" id="2" value="option2">
-            										<label for="2">
-            											<?php _e('Nhân viên','coca'); ?>
+            										<input class="magic-radio" type="radio" name="radio" id="1" value="1">
+            										<label for="1">
+            											<?php _e('Không có nhân viên trực tiếp','coca'); ?>
             										</label>
             									</div>
             								</div>
