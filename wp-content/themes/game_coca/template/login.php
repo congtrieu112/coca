@@ -17,7 +17,7 @@
       	 <button id="btn-invite" type="button" class="btn btn-info clear profile-end"><span>Đăng nhập</span></button>
       </form>
       <div class="line-login"></div>
-      	<p class="clear content-login">Nếu bạn chưa có tài khoản, vui lòng bấm vào <a class="register-login-a" href="javascript:void(0)">đây</a> để đăng ký.</p>
+      	<p class="clear content-login">Nếu bạn chưa có tài khoản, vui lòng bấm vào <a class="register-login-a" href="<?php print get_page_link(72); ?>">đây</a> để đăng ký.</p>
     </div>
   </div>
 </div>

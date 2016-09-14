@@ -76,13 +76,14 @@ if( !class_exists( 'SetupQuiz' ) ) {
 			wp_register_script('boostrap_js',THEME_URI.'js/bootstrap.min.js',array(),false,true);
 			wp_register_script('scroll_js',THEME_URI.'js/jquery.tinyscrollbar.js',array(),false,true);
 			wp_register_script('custom_js',THEME_URI.'js/process.js',array(),false,true);
-			wp_localize_script('custom_js','MyCongfig',array('AjaxUrl'=>admin_url('admin-ajax.php' )) );
+			wp_register_script('validate_js',THEME_URI.'js/bootstrapValidator.js',array(),false,true);
+			wp_localize_script('custom_js','MyCongfig',array('AjaxUrl'=>admin_url('admin-ajax.php' ),'home_url'=>home_url('/')) );
 			
 
 			wp_enqueue_script('jquery_google');
 			wp_enqueue_script('scroll_js');
 			wp_enqueue_script('boostrap_js');
-			
+			wp_enqueue_script('validate_js');
 			wp_enqueue_script('custom_js');
 
 		}
@@ -98,7 +99,7 @@ if( !class_exists( 'SetupQuiz' ) ) {
 				
 				'' => array(
 					'path' => THEME_FRAMEWORK_FUNC,
-					'args' => array('ajax_functions'),
+					'args' => array('ajax_functions','menu_functions'),
 				),
 			);
 		}
@@ -154,6 +155,10 @@ if( !class_exists( 'SetupQuiz' ) ) {
 			}
 			return $return;
 		}
+		public static function menu(){
+
+		}
 		
 	}
 }
+

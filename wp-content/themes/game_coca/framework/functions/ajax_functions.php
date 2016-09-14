@@ -13,8 +13,8 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 		
 		public function init(){
 			$ajax_events = array(
-				'register_user'		=> true,
-				'ajax_login'			=> true,
+				'register_user'	=> true,
+				'ajax_login'	=> true,
 			);
 			foreach ( $ajax_events as $ajax_event => $nopriv ) {
 				add_action( 'wp_ajax_nth_' . $ajax_event, array( __CLASS__, $ajax_event ) );
@@ -26,9 +26,10 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 			
 		}
 
+
 		public static function register_user(){
 			if (!wp_verify_nonce($_POST['coca-register-form'],'register-game') ) die( 'Security check' );
-			
+
 			$level = filter_var($_POST['level'],FILTER_SANITIZE_NUMBER_INT );
 			$first_name = filter_var($_POST['firstname'],FILTER_SANITIZE_STRING);
 			$last_name = filter_var($_POST['lastname'],FILTER_SANITIZE_STRING);
@@ -50,9 +51,19 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 				'last_name'=>$last_name,
 
 			);
+			if($level==2){
+				$result = self::check_level($email);
+				if(!self::check_level($email)){
+					print json_encode(array('level'=>1));
+					exit();
+				}
+
+			}
 
 			if($level && $display_name && $email && $pass && $user_name && $department){
+
 				$user_id = wp_insert_user( $userdata ) ;
+
 				if($user_id){
 					$user = array(
 						'level'=> $level,
@@ -61,7 +72,9 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 						'user_id' => $user_id
 					);
 					if(self::create_charts($user)){
-						echo $user_id;
+						print json_encode(array('success'=>$user_id));
+						exit();
+
 					}
 					
 					
@@ -72,6 +85,12 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 			// sleep(2);
 			
 			wp_die();
+		}
+
+		public static function check_level($email){
+			global $wpdb;
+			$result = $wpdb->get_row( "SELECT id  FROM $wpdb->posts WHERE post_type = 'manager' AND  post_title='$email'" );
+			return $result;
 		}
 		public static function create_charts($user){
 			
