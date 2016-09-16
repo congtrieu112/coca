@@ -663,7 +663,7 @@ if ( !class_exists( 'WpQuizCustom' ) ) {
 	        }
 	        
 			$data = json_encode($_POST['question'],JSON_UNESCAPED_UNICODE);
-			$data = stripcslashes($data);
+//			$data = stripcslashes($data);
 			update_post_meta($post_id,"question",$data);
 			
 			

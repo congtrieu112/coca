@@ -54,14 +54,16 @@ if( !class_exists( 'TheCoCa_Menu' ) ) {
                 if($i==$end_menu){
                     if(is_user_logged_in()){
 						$current_user = wp_get_current_user();
+						$url_logout = wp_logout_url( home_url() );
                         print "<li class='loged'>";
                     		print "<a href='javascript:void(0)' class='avata-user'><img src='".THEME_IMG_URI."avata.png' ></a>";
                         	print "<a href='javascript:void(0)' class='profile-user'> $current_user->display_name</a>";
-                        	print "<a href='javascript:void(0)' class='logout-user'>".__('Đăng xuất','coca')."</a>";
+                        	print "<a href='$url_logout' class='logout-user'>".__('Đăng xuất','coca')."</a>";
                         print "</li>";
                     }else{
+						$url = home_url();
 						print "<li class='meunu-li' >";
-						print "<a href='$item->url'>$item->title</a>";
+						print "<a href='javascript:pouplogin(\"$url\")'>$item->title</a>";
 						print "</li>";
 					}
                 }else{

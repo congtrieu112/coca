@@ -144,7 +144,8 @@ main {
   transition: all 0.3s; }
 
 .coca-menu-top li:last-child a {
-  text-decoration: none; }
+  text-decoration: none;
+  width: auto; }
 
 main.main-home {
   background: url(../images/people-background.png) no-repeat;
@@ -551,6 +552,9 @@ a.btn.btn-select.btn-select-light {
   margin-left: 0 !important;
   border-bottom: 37px solid #0887ca !important;
   padding: 0 7px !important; }
+
+.start-text > li:first-child > a:not(:hover), .start-text > li:first-child > a:hover {
+  border-bottom: 37px solid #0887ca !important; }
 
 .start-text > li:last-child > a {
   border-bottom: 37px solid #0887ca !important;
@@ -1923,5 +1927,8 @@ legend {
 #btn-invite:hover, #btn-invite:focus, #btn-invite.focus, #btn-invite:active, #btn-invite.active, #btn-invite:visited, #btn-invite:not(:hover) {
   border-color: transparent !important;
   border: none !important; }
+
+li[data-hide="hide"] {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

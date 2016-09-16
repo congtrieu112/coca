@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56ce2970-1a2e-40e9-a8a2-049aec1b07d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-second.png" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-second.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-third.png" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-third.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/.sass-cache/9d0f23f54bd99b5ebd427916831d2c21d45af5e6/style.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/.sass-cache/9d0f23f54bd99b5ebd427916831d2c21d45af5e6/style.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/template/login.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/template/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/template/nofication.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/template/nofication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_charts.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_charts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_winner.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_winner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" />
     </list>
     <ignored path="coca.iws" />
@@ -49,36 +45,108 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="31" />
+              <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax_functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php">
+      <file leaf-file-name="page_test_open.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.90566">
-              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.528302">
+              <caret line="270" column="54" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="54" />
               <folding>
-                <marker date="1473888473107" expanded="true" signature="2504:2585" placeholder="SELECT id FR..." />
+                <element signature="e#6#38#0#PHP" expanded="false" />
+                <element signature="e#843#10143#0#HTML" expanded="false" />
+                <element signature="e#4301#4332#0#HTML" expanded="true" />
+                <element signature="e#4422#4453#0#HTML" expanded="true" />
+                <element signature="e#4528#4559#0#HTML" expanded="true" />
+                <element signature="e#4634#4665#0#HTML" expanded="true" />
+                <element signature="e#4740#4772#0#HTML" expanded="true" />
+                <element signature="e#4873#4904#0#HTML" expanded="true" />
+                <element signature="e#5022#5053#0#HTML" expanded="true" />
+                <element signature="e#5123#5154#0#HTML" expanded="true" />
+                <element signature="e#5225#5256#0#HTML" expanded="true" />
+                <element signature="e#5326#5357#0#HTML" expanded="true" />
+                <element signature="e#5427#5459#0#HTML" expanded="true" />
+                <element signature="e#5530#5561#0#HTML" expanded="true" />
+                <element signature="e#5666#5697#0#HTML" expanded="true" />
+                <element signature="e#5767#5798#0#HTML" expanded="true" />
+                <element signature="e#5869#5900#0#HTML" expanded="true" />
+                <element signature="e#5971#6002#0#HTML" expanded="true" />
+                <element signature="e#6074#6106#0#HTML" expanded="true" />
+                <element signature="e#6177#6208#0#HTML" expanded="true" />
+                <element signature="e#6313#6344#0#HTML" expanded="true" />
+                <element signature="e#6414#6445#0#HTML" expanded="true" />
+                <element signature="e#6516#6547#0#HTML" expanded="true" />
+                <element signature="e#6618#6649#0#HTML" expanded="true" />
+                <element signature="e#6719#6751#0#HTML" expanded="true" />
+                <element signature="e#6822#6853#0#HTML" expanded="true" />
+                <element signature="e#6958#6989#0#HTML" expanded="true" />
+                <element signature="e#7059#7090#0#HTML" expanded="true" />
+                <element signature="e#7161#7192#0#HTML" expanded="true" />
+                <element signature="e#7262#7293#0#HTML" expanded="true" />
+                <element signature="e#7365#7397#0#HTML" expanded="true" />
+                <element signature="e#7468#7499#0#HTML" expanded="true" />
+                <element signature="e#7604#7635#0#HTML" expanded="true" />
+                <element signature="e#7705#7736#0#HTML" expanded="true" />
+                <element signature="e#7807#7838#0#HTML" expanded="true" />
+                <element signature="e#7910#7941#0#HTML" expanded="true" />
+                <element signature="e#8011#8043#0#HTML" expanded="true" />
+                <element signature="e#8114#8145#0#HTML" expanded="true" />
+                <element signature="e#8250#8281#0#HTML" expanded="true" />
+                <element signature="e#8351#8382#0#HTML" expanded="true" />
+                <element signature="e#8452#8483#0#HTML" expanded="true" />
+                <element signature="e#8553#8584#0#HTML" expanded="true" />
+                <element signature="e#8654#8686#0#HTML" expanded="true" />
+                <element signature="e#8756#8787#0#HTML" expanded="true" />
+                <element signature="e#8904#8936#0#HTML" expanded="true" />
+                <element signature="e#9020#9052#0#HTML" expanded="true" />
+                <element signature="e#9124#9155#0#HTML" expanded="true" />
+                <marker date="1473932174037" expanded="true" signature="10478:10556" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_mail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_test_start.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42771083">
+              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
               <folding>
-                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#center#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#center#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="e#6#40#0#PHP" expanded="false" />
+                <marker date="1473936148876" expanded="true" signature="918:4064" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1094:4064" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1134:4064" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1213:1747" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1257:1731" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1308:1483" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1534:1586" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1637:1714" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1834:4012" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1968:3464" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="1998:3446" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="2035:2340" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="2224:2321" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="2418:2701" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="2607:2682" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="2779:3077" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="2968:3058" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="3155:3426" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="3344:3407" placeholder="..." />
+                <marker date="1473936148876" expanded="true" signature="3495:3996" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -87,41 +155,29 @@
       <file leaf-file-name="wp-quiz-custom.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="74.64151">
-              <caret line="118" column="64" selection-start-line="118" selection-start-column="64" selection-end-line="118" selection-end-column="64" />
+            <state vertical-scroll-proportion="-3.9272728">
+              <caret line="667" column="12" selection-start-line="667" selection-start-column="12" selection-end-line="667" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_meta_box_game.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_game.php">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="14.461538">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state vertical-scroll-proportion="-4.0875">
+              <caret line="639" column="31" selection-start-line="639" selection-start-column="0" selection-end-line="640" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php">
+      <file leaf-file-name="page_home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.807692">
-              <caret line="54" column="35" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="44" />
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="active_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <marker date="1473886888431" expanded="true" signature="40:56" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -129,29 +185,78 @@
       <file leaf-file-name="template_meta_box.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="51.076923">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.2452831">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/functions.php">
+      <file leaf-file-name="page_result.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.5">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_home.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
+      <file leaf-file-name="page_rule.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16190477">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
-              <folding />
+            <state vertical-scroll-proportion="-5.730769">
+              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+              <folding>
+                <element signature="e#1432#19501#0#HTML" expanded="false" />
+                <element signature="e#5851#5882#0#HTML" expanded="true" />
+                <element signature="e#6116#6147#0#HTML" expanded="true" />
+                <element signature="e#6366#6397#0#HTML" expanded="true" />
+                <element signature="e#6616#6647#0#HTML" expanded="true" />
+                <element signature="e#6866#6898#0#HTML" expanded="true" />
+                <element signature="e#7143#7174#0#HTML" expanded="true" />
+                <element signature="e#7524#7555#0#HTML" expanded="true" />
+                <element signature="e#7769#7800#0#HTML" expanded="true" />
+                <element signature="e#8015#8046#0#HTML" expanded="true" />
+                <element signature="e#8260#8291#0#HTML" expanded="true" />
+                <element signature="e#8505#8537#0#HTML" expanded="true" />
+                <element signature="e#8752#8783#0#HTML" expanded="true" />
+                <element signature="e#9120#9151#0#HTML" expanded="true" />
+                <element signature="e#9365#9396#0#HTML" expanded="true" />
+                <element signature="e#9611#9642#0#HTML" expanded="true" />
+                <element signature="e#9857#9888#0#HTML" expanded="true" />
+                <element signature="e#10104#10136#0#HTML" expanded="true" />
+                <element signature="e#10351#10382#0#HTML" expanded="true" />
+                <element signature="e#10719#10750#0#HTML" expanded="true" />
+                <element signature="e#10964#10995#0#HTML" expanded="true" />
+                <element signature="e#11210#11241#0#HTML" expanded="true" />
+                <element signature="e#11456#11487#0#HTML" expanded="true" />
+                <element signature="e#11701#11733#0#HTML" expanded="true" />
+                <element signature="e#11948#11979#0#HTML" expanded="true" />
+                <element signature="e#12316#12347#0#HTML" expanded="true" />
+                <element signature="e#12561#12592#0#HTML" expanded="true" />
+                <element signature="e#12807#12838#0#HTML" expanded="true" />
+                <element signature="e#13052#13083#0#HTML" expanded="true" />
+                <element signature="e#13299#13331#0#HTML" expanded="true" />
+                <element signature="e#13546#13577#0#HTML" expanded="true" />
+                <element signature="e#13914#13945#0#HTML" expanded="true" />
+                <element signature="e#14159#14190#0#HTML" expanded="true" />
+                <element signature="e#14405#14436#0#HTML" expanded="true" />
+                <element signature="e#14652#14683#0#HTML" expanded="true" />
+                <element signature="e#14897#14929#0#HTML" expanded="true" />
+                <element signature="e#15144#15175#0#HTML" expanded="true" />
+                <element signature="e#15512#15543#0#HTML" expanded="true" />
+                <element signature="e#15757#15788#0#HTML" expanded="true" />
+                <element signature="e#16002#16033#0#HTML" expanded="true" />
+                <element signature="e#16247#16278#0#HTML" expanded="true" />
+                <element signature="e#16492#16524#0#HTML" expanded="true" />
+                <element signature="e#16738#16769#0#HTML" expanded="true" />
+                <element signature="e#17118#17150#0#HTML" expanded="true" />
+                <element signature="e#17378#17410#0#HTML" expanded="true" />
+                <element signature="e#17626#17657#0#HTML" expanded="true" />
+                <element signature="e#21642#22418#0#HTML" expanded="false" />
+                <element signature="e#22455#23242#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,30 +272,31 @@
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_review.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_nofication.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_login.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/invite.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/login.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_charts.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_winner.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/nofication.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php" />
       </list>
     </option>
   </component>
@@ -200,6 +306,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -231,8 +340,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -618,6 +727,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -648,6 +758,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="56ce2970-1a2e-40e9-a8a2-049aec1b07d2" name="Default" comment="" />
@@ -658,7 +771,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -681,6 +794,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -691,16 +812,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
-          <folding>
-            <element signature="e#7#41#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -714,7 +825,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
           <folding>
-            <marker date="1473888473107" expanded="true" signature="2504:2585" placeholder="SELECT id FR..." />
+            <marker date="1473893038245" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
           </folding>
         </state>
       </provider>
@@ -755,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="39" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,13 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12952381">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -882,14 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51809525">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -912,25 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34857142">
           <caret line="1082" column="9" selection-start-line="1082" selection-start-column="9" selection-end-line="1082" selection-end-column="9" />
-          <folding>
-            <marker date="1473066942677" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1473066942677" expanded="true" signature="-1:-1" placeholder="SELECT count..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="59" column="99" selection-start-line="59" selection-start-column="99" selection-end-line="59" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -939,29 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385">
           <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-          <folding>
-            <element signature="e#7#41#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.692307">
-          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
-          <folding>
-            <element signature="e#6#40#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="65" column="107" selection-start-line="65" selection-start-column="107" selection-end-line="65" selection-end-column="107" />
-          <folding>
-            <element signature="e#6#38#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,29 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.115385">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#40#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8073394">
-          <caret line="2114" column="35" selection-start-line="2114" selection-start-column="35" selection-end-line="2114" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/nofication.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="59" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,22 +1046,397 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2075472">
           <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <marker date="1473886888431" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding>
+            <marker date="1473893038245" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4905663">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.0">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#7#40#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0875">
+          <caret line="639" column="31" selection-start-line="639" selection-start-column="0" selection-end-line="640" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Coca SF_Cách chơi_160826.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-58.41905">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.730769">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+          <folding>
+            <element signature="e#1432#19501#0#HTML" expanded="false" />
+            <element signature="e#5851#5882#0#HTML" expanded="true" />
+            <element signature="e#6116#6147#0#HTML" expanded="true" />
+            <element signature="e#6366#6397#0#HTML" expanded="true" />
+            <element signature="e#6616#6647#0#HTML" expanded="true" />
+            <element signature="e#6866#6898#0#HTML" expanded="true" />
+            <element signature="e#7143#7174#0#HTML" expanded="true" />
+            <element signature="e#7524#7555#0#HTML" expanded="true" />
+            <element signature="e#7769#7800#0#HTML" expanded="true" />
+            <element signature="e#8015#8046#0#HTML" expanded="true" />
+            <element signature="e#8260#8291#0#HTML" expanded="true" />
+            <element signature="e#8505#8537#0#HTML" expanded="true" />
+            <element signature="e#8752#8783#0#HTML" expanded="true" />
+            <element signature="e#9120#9151#0#HTML" expanded="true" />
+            <element signature="e#9365#9396#0#HTML" expanded="true" />
+            <element signature="e#9611#9642#0#HTML" expanded="true" />
+            <element signature="e#9857#9888#0#HTML" expanded="true" />
+            <element signature="e#10104#10136#0#HTML" expanded="true" />
+            <element signature="e#10351#10382#0#HTML" expanded="true" />
+            <element signature="e#10719#10750#0#HTML" expanded="true" />
+            <element signature="e#10964#10995#0#HTML" expanded="true" />
+            <element signature="e#11210#11241#0#HTML" expanded="true" />
+            <element signature="e#11456#11487#0#HTML" expanded="true" />
+            <element signature="e#11701#11733#0#HTML" expanded="true" />
+            <element signature="e#11948#11979#0#HTML" expanded="true" />
+            <element signature="e#12316#12347#0#HTML" expanded="true" />
+            <element signature="e#12561#12592#0#HTML" expanded="true" />
+            <element signature="e#12807#12838#0#HTML" expanded="true" />
+            <element signature="e#13052#13083#0#HTML" expanded="true" />
+            <element signature="e#13299#13331#0#HTML" expanded="true" />
+            <element signature="e#13546#13577#0#HTML" expanded="true" />
+            <element signature="e#13914#13945#0#HTML" expanded="true" />
+            <element signature="e#14159#14190#0#HTML" expanded="true" />
+            <element signature="e#14405#14436#0#HTML" expanded="true" />
+            <element signature="e#14652#14683#0#HTML" expanded="true" />
+            <element signature="e#14897#14929#0#HTML" expanded="true" />
+            <element signature="e#15144#15175#0#HTML" expanded="true" />
+            <element signature="e#15512#15543#0#HTML" expanded="true" />
+            <element signature="e#15757#15788#0#HTML" expanded="true" />
+            <element signature="e#16002#16033#0#HTML" expanded="true" />
+            <element signature="e#16247#16278#0#HTML" expanded="true" />
+            <element signature="e#16492#16524#0#HTML" expanded="true" />
+            <element signature="e#16738#16769#0#HTML" expanded="true" />
+            <element signature="e#17118#17150#0#HTML" expanded="true" />
+            <element signature="e#17378#17410#0#HTML" expanded="true" />
+            <element signature="e#17626#17657#0#HTML" expanded="true" />
+            <element signature="e#21642#22418#0#HTML" expanded="false" />
+            <element signature="e#22455#23242#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9272728">
+          <caret line="667" column="12" selection-start-line="667" selection-start-column="12" selection-end-line="667" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="51.076923">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.2452831">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_game.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.461538">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1036,75 +1444,95 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="31" />
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="74.64151">
-          <caret line="118" column="64" selection-start-line="118" selection-start-column="64" selection-end-line="118" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state vertical-scroll-proportion="-3.528302">
+          <caret line="270" column="54" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="54" />
           <folding>
-            <marker date="1473886888431" expanded="true" signature="40:56" placeholder="..." />
+            <element signature="e#6#38#0#PHP" expanded="false" />
+            <element signature="e#843#10143#0#HTML" expanded="false" />
+            <element signature="e#4301#4332#0#HTML" expanded="true" />
+            <element signature="e#4422#4453#0#HTML" expanded="true" />
+            <element signature="e#4528#4559#0#HTML" expanded="true" />
+            <element signature="e#4634#4665#0#HTML" expanded="true" />
+            <element signature="e#4740#4772#0#HTML" expanded="true" />
+            <element signature="e#4873#4904#0#HTML" expanded="true" />
+            <element signature="e#5022#5053#0#HTML" expanded="true" />
+            <element signature="e#5123#5154#0#HTML" expanded="true" />
+            <element signature="e#5225#5256#0#HTML" expanded="true" />
+            <element signature="e#5326#5357#0#HTML" expanded="true" />
+            <element signature="e#5427#5459#0#HTML" expanded="true" />
+            <element signature="e#5530#5561#0#HTML" expanded="true" />
+            <element signature="e#5666#5697#0#HTML" expanded="true" />
+            <element signature="e#5767#5798#0#HTML" expanded="true" />
+            <element signature="e#5869#5900#0#HTML" expanded="true" />
+            <element signature="e#5971#6002#0#HTML" expanded="true" />
+            <element signature="e#6074#6106#0#HTML" expanded="true" />
+            <element signature="e#6177#6208#0#HTML" expanded="true" />
+            <element signature="e#6313#6344#0#HTML" expanded="true" />
+            <element signature="e#6414#6445#0#HTML" expanded="true" />
+            <element signature="e#6516#6547#0#HTML" expanded="true" />
+            <element signature="e#6618#6649#0#HTML" expanded="true" />
+            <element signature="e#6719#6751#0#HTML" expanded="true" />
+            <element signature="e#6822#6853#0#HTML" expanded="true" />
+            <element signature="e#6958#6989#0#HTML" expanded="true" />
+            <element signature="e#7059#7090#0#HTML" expanded="true" />
+            <element signature="e#7161#7192#0#HTML" expanded="true" />
+            <element signature="e#7262#7293#0#HTML" expanded="true" />
+            <element signature="e#7365#7397#0#HTML" expanded="true" />
+            <element signature="e#7468#7499#0#HTML" expanded="true" />
+            <element signature="e#7604#7635#0#HTML" expanded="true" />
+            <element signature="e#7705#7736#0#HTML" expanded="true" />
+            <element signature="e#7807#7838#0#HTML" expanded="true" />
+            <element signature="e#7910#7941#0#HTML" expanded="true" />
+            <element signature="e#8011#8043#0#HTML" expanded="true" />
+            <element signature="e#8114#8145#0#HTML" expanded="true" />
+            <element signature="e#8250#8281#0#HTML" expanded="true" />
+            <element signature="e#8351#8382#0#HTML" expanded="true" />
+            <element signature="e#8452#8483#0#HTML" expanded="true" />
+            <element signature="e#8553#8584#0#HTML" expanded="true" />
+            <element signature="e#8654#8686#0#HTML" expanded="true" />
+            <element signature="e#8756#8787#0#HTML" expanded="true" />
+            <element signature="e#8904#8936#0#HTML" expanded="true" />
+            <element signature="e#9020#9052#0#HTML" expanded="true" />
+            <element signature="e#9124#9155#0#HTML" expanded="true" />
+            <marker date="1473932174037" expanded="true" signature="10478:10556" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.807692">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.42771083">
+          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#center#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#center#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#6#40#0#PHP" expanded="false" />
+            <marker date="1473936148876" expanded="true" signature="918:4064" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1094:4064" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1134:4064" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1213:1747" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1257:1731" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1308:1483" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1534:1586" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1637:1714" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1834:4012" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1968:3464" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="1998:3446" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="2035:2340" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="2224:2321" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="2418:2701" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="2607:2682" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="2779:3077" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="2968:3058" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="3155:3426" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="3344:3407" placeholder="..." />
+            <marker date="1473936148876" expanded="true" signature="3495:3996" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.90566">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <marker date="1473888473107" expanded="true" signature="2504:2585" placeholder="SELECT id FR..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16190477">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>

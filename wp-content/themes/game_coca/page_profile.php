@@ -1,8 +1,12 @@
 <?php
  /* 
  * Template Name: Profile
- */ 
+ */
+if(!is_user_logged_in()){
+    header("location:".home_url('/'));
+}
 get_header();
+
 ?>
 
 

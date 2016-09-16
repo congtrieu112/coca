@@ -74,8 +74,9 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 						'user_id' => $user_id
 					);
 					if($key = self::create_charts($user)){
-						$url_key = admin_url("admin-ajax.php?action=key_active&key=$key");
-						$mail = self::sent_mail($url_key);
+						$url_key = admin_url("admin-ajax.php")."?action=key_active&key=$key";
+						$subject = "Hoàn tất đăng ký";
+						self::sent_mail($url_key,$email,$display_name,$subject);
 						print json_encode(array('success'=>$user_id));
 						exit();
 
@@ -177,12 +178,11 @@ if( !class_exists( 'TheCoCa_Ajax' ) ) {
 			exit();
 		}
 
-		public static  function sent_mail($url){
-			$to = 'ittrjeu@gmail.com';
-			$subject = 'The subject';
+		public static  function sent_mail($url,$email,$name,$subject){
+			$to = $email;
+
 			ob_start();
 
-			set_query_var( 'params',  $url );
 			// include $template_name."-".$part_name.".php";
 			require_once(THEME_BACKEND.'template_mail.php');
 			$body = ob_get_contents();

@@ -182,6 +182,7 @@ main{
 
 .coca-menu-top li:last-child a{
     text-decoration: none;
+    width: auto;
 }
 
 
@@ -647,6 +648,10 @@ a.btn.btn-select.btn-select-light {
     border-bottom: 37px solid #0887ca !important;
     padding: 0 7px !important;
 }
+.start-text > li:first-child > a:not(:hover),.start-text > li:first-child > a:hover{
+    border-bottom: 37px solid #0887ca !important;
+}
+
 .start-text >li:last-child > a{
     border-bottom: 37px solid #0887ca !important;
     z-index: -1;
@@ -2114,4 +2119,7 @@ legend{
 #btn-invite:hover,#btn-invite:focus,#btn-invite.focus,#btn-invite:active, #btn-invite.active,#btn-invite:visited,#btn-invite:not(:hover) {
     border-color: transparent !important;
     border: none !important;
+}
+li[data-hide="hide"]{
+    display:none;
 }

@@ -74,22 +74,76 @@ $(document).ready(function () {
     popup();
     next_preview_tab();
     validate_form();
+
+
 });
+
+//function checkradio(){
+//
+//    $('input[type=radio]').each(function () {
+//        if (this.checked) {
+//            console.log($(this).val());
+//        }
+//    });
+//}
+
 function next_preview_tab(){
-    $('.next-page').click(function(){
-        $('.nav-tabs > .active').next('li').find('a').trigger('click');
+    $('.next-page').on('click',function(){
+        $('.start-text > .active').next('li').find('a').trigger('click');
+        var stt = $('.start-text > .active').next('li').find('a').html();
+        var id = $('.start-text > .active').find('a').attr('href');
+        stt = parseInt(stt);
+        $('a[href="#step11"]').tab('show');
+        console.log(id);
+
+
+        if(stt >= 10){
+            var pre = stt - 9 ;
+            $('.start-text li').eq( pre ).attr('data-hide','hide');
+            $('.start-text li').eq( stt ).removeAttr('data-hide');
+        }
     });
 
     $('.prev-page').click(function(){
+        //$('.nav-tabs > .active').prev('li').find('a').trigger('click');
+        var stt = $('.nav-tabs > .active').prev('li').find('a').html();
+        stt = parseInt(stt);
+
         $('.nav-tabs > .active').prev('li').find('a').trigger('click');
+        if(stt >= 9){
+            stt++;
+            var pre = stt - 9 ;
+
+            $('.start-text li').eq( stt ).attr('data-hide','hide');
+            $('.start-text li').eq( pre ).removeAttr('data-hide');
+        }
     });
 
     $('.end').click(function(){
+        var stt = $('.nav-tabs > .active').next('li').find('a').html();
+        stt = parseInt(stt);
+
         $('.nav-tabs > .active').next('li').find('a').trigger('click');
+        if(stt >= 10){
+            var pre = stt - 9 ;
+
+            $('.start-text li').eq( pre ).attr('data-hide','hide');
+            $('.start-text li').eq( stt ).removeAttr('data-hide');
+        }
     });
 
     $('.first').click(function(){
+        var stt = $('.nav-tabs > .active').prev('li').find('a').html();
+        stt = parseInt(stt);
+
         $('.nav-tabs > .active').prev('li').find('a').trigger('click');
+        if(stt >= 9){
+            stt++;
+            var pre = stt - 9 ;
+
+            $('.start-text li').eq( stt ).attr('data-hide','hide');
+            $('.start-text li').eq( pre ).removeAttr('data-hide');
+        }
     });
 
 }
@@ -256,11 +310,12 @@ function validate_form(){
             dataType: 'json',
             async:    false, // for Safari
             success:  function(data) {
-                console.log(data);
+                return false;
                 if(data.loggedin){
                     $(".nofication-result").html('Đăng nhập thành công').fadeIn('fast');
                     setTimeout(function(e){
                         $(".login-form").modal('hide');
+
                         location.href=data.url_referer;
                     },3000);
                 }else{
@@ -271,13 +326,66 @@ function validate_form(){
 
             }
         });
+    });
 
+    $("#playgame").submit(function(e){
+        e.preventDefault();
+        var data = $(this).serialize()+"&action=check_level";
+        var values = $('.check-level').val();
+        setCookie('level',values,1);
+        if($("#login_check").val()=='login'){
+            pouplogin($(this).attr('action'));
+        }
 
+        //Serialize the Form
+
+        //$.ajax({
+        //    type: 'POST',
+        //    url:  MyCongfig.AjaxUrl,
+        //    data: data,
+        //    dataType: 'json',
+        //    async:    false, // for Safari
+        //    success:  function(data) {
+        //        console.log(data);
+        //        if(data.loggedin){
+        //            $(".nofication-result").html('Đăng nhập thành công').fadeIn('fast');
+        //            setTimeout(function(e){
+        //                $(".login-form").modal('hide');
+        //                location.href=data.url_referer;
+        //            },3000);
+        //        }else{
+        //            $(".nofication-result").html('Email hoặc password không đúng').fadeIn('fast');
+        //            $("#loginform").bootstrapValidator('resetForm', true);
+        //        }
+        //
+        //
+        //    }
+        //});
 
     });
 
-}
 
+}
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+}
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+}
 $(document).on('click', '.btn-select', function (e) {
     e.preventDefault();
     var ul = $(this).find("ul");

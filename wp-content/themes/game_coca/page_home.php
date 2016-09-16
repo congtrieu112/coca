@@ -3,7 +3,6 @@
  * Template Name: Home
  */
 get_header();
-gui_mail();
  ?>
 
     <main class="main-home content-width">
@@ -12,9 +11,9 @@ gui_mail();
                 <div class="col-md-6 col-md-offset-6">
                     <h1 class="title-main clear">CHINH PHỤC CÔNG NGHỆ <br /> bứt phá rào cản</h1>
                     <?php if(is_user_logged_in()): ?>
-                        <a href="<?php print get_page_link(get_id_of_template("page_test_start.php")); ?>" class="button-play"> <span>Tranh tài ngay</span></a>
+                        <a href="<?php print get_page_link(get_id_of_template("page_test_open.php")); ?>" class="button-play"> <span>Tranh tài ngay</span></a>
                         <?php else : ?>
-                        <a href="javascript:pouplogin('<?php print get_page_link(get_id_of_template("page_test_start.php")); ?>')" class="button-play"> <span>Tranh tài ngay</span></a>
+                        <a href="javascript:pouplogin('<?php print get_page_link(get_id_of_template("page_test_open.php")); ?>')" class="button-play"> <span>Tranh tài ngay</span></a>
                     <?php endif;  ?>
 
                 </div>
@@ -36,9 +35,10 @@ gui_mail();
                                 <img src="<?php print THEME_IMG_URI; ?>prize-second.png" alt="" class="img-responsive">
                             </div>
                             <div class="info-article">
-                                <h1 class="title-articlee clear">Giải nhì</h1> 
+                                <h1 class="title-articlee clear">1 Giải ba</h1>
                                 <p class="description-article clear">
-                                    Điện thoại OPPO S1S 
+                                    Điện thoại <br>
+                                    OPPO F1S
                                 </p> 
                             </div>
                         </article> 
@@ -47,9 +47,10 @@ gui_mail();
                                 <img src="<?php print THEME_IMG_URI; ?>prize-third.png" alt="" class="img-responsive">
                             </div>
                             <div class="info-article">
-                                <h1 class="title-articlee clear">Giải ba</h1> 
+                                <h1 class="title-articlee clear">1 Giải nhì</h1>
                                 <p class="description-article clear">
-                                    Một camera <br /> quay phim 360 độ
+                                    Canon PowerShot <br>
+                                    G9X
                                 </p> 
                             </div>
                         </article> 
