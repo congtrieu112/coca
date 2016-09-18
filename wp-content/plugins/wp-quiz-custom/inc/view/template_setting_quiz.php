@@ -9,7 +9,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 $status =  !empty(get_option('status_game')) ? get_option('status_game') : '';
 $date_end = !empty(get_option('end_time_game')) ? get_option('end_time_game') : '';
 $time_interval = !empty(get_option('interval')) ? get_option('interval') : '';
-
+$number_question =  !empty(get_option('number_question')) ? get_option('number_question') : '';
+$chance = !empty(get_option('chance')) ? get_option('chance') : '';
 ?>
 <div class="wrap slickQuiz quizOptions">
     
@@ -46,6 +47,24 @@ $time_interval = !empty(get_option('interval')) ? get_option('interval') : '';
                     <td>
                         <input type="text" id="spinner" name="time_interval" class="regular-text" value="<?php print $time_interval; ?>">
                         <p class="ui-state-error ui-corner-all <?php print  (isset($interval)) ?"block":"hidden" ?>"><?php print (isset($interval)) ? $interval : ""  ?></p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row" style="width: 250px;">
+                        <label for="time-game">Number question</label>
+                    </th>
+                    <td>
+                        <input type="text" id="number-question" name="number_question" class="regular-text" value="<?php print $number_question; ?>">
+                        <p class="ui-state-error ui-corner-all <?php print  (isset($number_question)) ?"hidden":"block" ?>"><?php print (isset($number_question)) ? $number_question : ""  ?></p>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row" style="width: 250px;">
+                        <label for="time-game">Number default chance</label>
+                    </th>
+                    <td>
+                        <input type="text" id="chance" name="chance" class="regular-text" value="<?php print $chance; ?>">
+                        <p class="ui-state-error ui-corner-all <?php print  (isset($chance)) ?"hidden":"block" ?>"><?php print (isset($chance)) ? $chance : ""  ?></p>
                     </td>
                 </tr>
 

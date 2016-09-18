@@ -2,7 +2,12 @@
 /*
 * Template Name: Result
 */
+if(!is_user_logged_in()){
+    header("location:".home_url('/'));
+}
 get_header();
+$result = (isset($_SESSION['review']))? $_SESSION['review'] : 0;
+$point = (isset($_SESSION['point']))? $_SESSION['point'] : 0;
 ?>
 
 
@@ -14,11 +19,11 @@ get_header();
             		
                     <h2 class="clear title-reslut">Kết quả</h2>
                     <div class="icon-flag"></div>
-                    <p class="text-number-result clear">5/15 CÂU ĐÚNG</p> 
+                    <p class="text-number-result clear"><?php print $point; ?>/<?php print count($result);?> CÂU ĐÚNG</p>
                     <a href="javascript:void(0)" class="review-result"><i class="icon-view-result"></i>Xem lại kết quả</a>
                     <h1 class="sum-point-result clear">tổng điểm đạt được</h1>
             		<div class="content-sum-point-result">
-                        150 ĐIỂM      
+                        <?php print $point; ?> ĐIỂM
                     </div>
                     <div class="continue-game">
                         <div class="block-left-game">
@@ -27,7 +32,7 @@ get_header();
                         </div>
                         <div class="block-right-game">
                             <p class="more-chance clear">Bạn vẫn còn 2 lượt chơi</p>
-                            <a  href="<?php print get_page_link(38); ?>" class="sent-invite-buttom"><i class="icon-process"></i>Tiếp tục đua</a>
+                            <a  href="<?php print get_page_link(get_id_of_template("page_test_open.php")); ?>" class="sent-invite-buttom"><i class="icon-process"></i>Tiếp tục đua</a>
                         </div>
                     </div>
                     <div class="line-foot-play"></div>

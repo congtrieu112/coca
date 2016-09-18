@@ -2,24 +2,169 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56ce2970-1a2e-40e9-a8a2-049aec1b07d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-second.png" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-second.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-third.png" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/images/prize-third.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/.sass-cache/5dd93ecea9f4fd3c58afe7ffb2c5b5597d7ff822/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/.sass-cache/9d0f23f54bd99b5ebd427916831d2c21d45af5e6/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/.sass-cache/c7aab8a218f2597db1fdcd1c3d87a6db03cb2ae3/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/UTMAvoBold_Italic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/images/bg-scrollbar-thumb-y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/images/bg-scrollbar-track-y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/images/bg-scrollbar-trackend-y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/magic-check.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/style.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/css/tinyscrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvo.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvo.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvo.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvo.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold_Italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold_Italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold_Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold_Italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoBold_Italic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoItalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoItalic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoItalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/UTMAvoItalic.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/framework/functions/ajax_functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/framework/theme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/gamtracnghiem.wordpress.2016-09-08.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/avata-prize-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/avata-prize-thirst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/avata-prize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/avata-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/avata.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/background-coner-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/background-coner-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/background-cover-play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/box-shodow-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/chance-none.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/chance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/comma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/content-sum-point-result.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-background-rule.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-left-bottom-test-start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-left-form-one.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-left-form-register.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-left-form-two.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-left-top-test-start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-prize-first-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-prize-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-prize-second-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-prize-second-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-prize-thirst-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-prize-thirst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-right-bottom-test-start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-right-form-register.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/effect-right-top-test-start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/foot-icon-prize-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/foot-icon-prize-thirst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/foot-icon-prize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/footer-backgound.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/heart-department.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/heart-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/heart-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/heart-thirst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/heart-trim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/hinh-mau.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/icon-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/icon-flag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/icon-person.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/icon-process.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/icon-view-result.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/logo-footer-center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/logo-footer-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/logo-footer-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/mark-profile-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/medal-icon-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/medal-icon-thirst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/medal-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/people-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/prize-encourage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/prize-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/prize-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/prize-third.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/images/table-charts-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/js/jquery.tinyscrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/js/process.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/js/tinyscrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page-invite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page-regulation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_charts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_nofication.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_register.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_result.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_review.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_rule.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_test_open.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/page_test_start.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/sass/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/template/effect-startTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/template/invite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/template/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/template/nofication.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/game_cocas/template/review.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/.sass-cache/9d0f23f54bd99b5ebd427916831d2c21d45af5e6/style.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/.sass-cache/9d0f23f54bd99b5ebd427916831d2c21d45af5e6/style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/model/class.setting.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/model/class.setting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_setting_quiz.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_setting_quiz.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/js/custom.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_review.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_review.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php" afterPath="$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php" />
     </list>
     <ignored path="coca.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +176,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -40,153 +184,93 @@
     <favorites_list name="coca" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="process.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="page_test_open.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.528302">
-              <caret line="270" column="54" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="54" />
+            <state relative-caret-position="85">
+              <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
               <folding>
                 <element signature="e#6#38#0#PHP" expanded="false" />
-                <element signature="e#843#10143#0#HTML" expanded="false" />
-                <element signature="e#4301#4332#0#HTML" expanded="true" />
-                <element signature="e#4422#4453#0#HTML" expanded="true" />
-                <element signature="e#4528#4559#0#HTML" expanded="true" />
-                <element signature="e#4634#4665#0#HTML" expanded="true" />
-                <element signature="e#4740#4772#0#HTML" expanded="true" />
-                <element signature="e#4873#4904#0#HTML" expanded="true" />
-                <element signature="e#5022#5053#0#HTML" expanded="true" />
-                <element signature="e#5123#5154#0#HTML" expanded="true" />
-                <element signature="e#5225#5256#0#HTML" expanded="true" />
-                <element signature="e#5326#5357#0#HTML" expanded="true" />
-                <element signature="e#5427#5459#0#HTML" expanded="true" />
-                <element signature="e#5530#5561#0#HTML" expanded="true" />
-                <element signature="e#5666#5697#0#HTML" expanded="true" />
-                <element signature="e#5767#5798#0#HTML" expanded="true" />
-                <element signature="e#5869#5900#0#HTML" expanded="true" />
-                <element signature="e#5971#6002#0#HTML" expanded="true" />
-                <element signature="e#6074#6106#0#HTML" expanded="true" />
-                <element signature="e#6177#6208#0#HTML" expanded="true" />
-                <element signature="e#6313#6344#0#HTML" expanded="true" />
-                <element signature="e#6414#6445#0#HTML" expanded="true" />
-                <element signature="e#6516#6547#0#HTML" expanded="true" />
-                <element signature="e#6618#6649#0#HTML" expanded="true" />
-                <element signature="e#6719#6751#0#HTML" expanded="true" />
-                <element signature="e#6822#6853#0#HTML" expanded="true" />
-                <element signature="e#6958#6989#0#HTML" expanded="true" />
-                <element signature="e#7059#7090#0#HTML" expanded="true" />
-                <element signature="e#7161#7192#0#HTML" expanded="true" />
-                <element signature="e#7262#7293#0#HTML" expanded="true" />
-                <element signature="e#7365#7397#0#HTML" expanded="true" />
-                <element signature="e#7468#7499#0#HTML" expanded="true" />
-                <element signature="e#7604#7635#0#HTML" expanded="true" />
-                <element signature="e#7705#7736#0#HTML" expanded="true" />
-                <element signature="e#7807#7838#0#HTML" expanded="true" />
-                <element signature="e#7910#7941#0#HTML" expanded="true" />
-                <element signature="e#8011#8043#0#HTML" expanded="true" />
-                <element signature="e#8114#8145#0#HTML" expanded="true" />
-                <element signature="e#8250#8281#0#HTML" expanded="true" />
-                <element signature="e#8351#8382#0#HTML" expanded="true" />
-                <element signature="e#8452#8483#0#HTML" expanded="true" />
-                <element signature="e#8553#8584#0#HTML" expanded="true" />
-                <element signature="e#8654#8686#0#HTML" expanded="true" />
-                <element signature="e#8756#8787#0#HTML" expanded="true" />
-                <element signature="e#8904#8936#0#HTML" expanded="true" />
-                <element signature="e#9020#9052#0#HTML" expanded="true" />
-                <element signature="e#9124#9155#0#HTML" expanded="true" />
-                <marker date="1473932174037" expanded="true" signature="10478:10556" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/footer.php">
+      <file leaf-file-name="review.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <marker date="1474163108214" expanded="true" signature="1393:6671" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="1457:1642" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="2224:6617" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="2276:6594" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="2346:3433" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="2408:3433" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="3945:5563" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="4089:5563" ph="..." />
+                <marker date="1474163108214" expanded="true" signature="4140:5563" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_test_start.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page_test_start.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42771083">
-              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="28" column="82" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="82" />
               <folding>
-                <element signature="e#6#40#0#PHP" expanded="false" />
-                <marker date="1473936148876" expanded="true" signature="918:4064" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1094:4064" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1134:4064" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1213:1747" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1257:1731" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1308:1483" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1534:1586" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1637:1714" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1834:4012" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1968:3464" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="1998:3446" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="2035:2340" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="2224:2321" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="2418:2701" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="2607:2682" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="2779:3077" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="2968:3058" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="3155:3426" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="3344:3407" placeholder="..." />
-                <marker date="1473936148876" expanded="true" signature="3495:3996" placeholder="..." />
+                <element signature="e#6#40#0#PHP" expanded="true" />
+                <marker date="1474163863801" expanded="true" signature="1971:2294" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="2722:3123" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="2762:3123" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="2817:3123" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="2861:3123" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="2912:3123" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="3499:3611" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="3662:3766" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="3831:5174" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="3940:4582" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="3970:4564" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="4127:4298" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="4127:4440" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="4362:4421" ph="..." />
+                <marker date="1474163863801" expanded="true" signature="4613:5158" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp-quiz-custom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php">
+      <file leaf-file-name="ajax_functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9272728">
-              <caret line="667" column="12" selection-start-line="667" selection-start-column="12" selection-end-line="667" selection-end-column="12" />
+            <state relative-caret-position="357">
+              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+              <folding>
+                <marker date="1474163999240" expanded="true" signature="5605:5686" ph="SELECT id FR... ${$wpdb-&gt;posts}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0875">
-              <caret line="639" column="31" selection-start-line="639" selection-start-column="0" selection-end-line="640" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template_meta_box.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2452831">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,68 +279,39 @@
       <file leaf-file-name="page_result.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="257">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_rule.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php">
+      <file leaf-file-name="effect-startTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/effect-startTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.730769">
-              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-              <folding>
-                <element signature="e#1432#19501#0#HTML" expanded="false" />
-                <element signature="e#5851#5882#0#HTML" expanded="true" />
-                <element signature="e#6116#6147#0#HTML" expanded="true" />
-                <element signature="e#6366#6397#0#HTML" expanded="true" />
-                <element signature="e#6616#6647#0#HTML" expanded="true" />
-                <element signature="e#6866#6898#0#HTML" expanded="true" />
-                <element signature="e#7143#7174#0#HTML" expanded="true" />
-                <element signature="e#7524#7555#0#HTML" expanded="true" />
-                <element signature="e#7769#7800#0#HTML" expanded="true" />
-                <element signature="e#8015#8046#0#HTML" expanded="true" />
-                <element signature="e#8260#8291#0#HTML" expanded="true" />
-                <element signature="e#8505#8537#0#HTML" expanded="true" />
-                <element signature="e#8752#8783#0#HTML" expanded="true" />
-                <element signature="e#9120#9151#0#HTML" expanded="true" />
-                <element signature="e#9365#9396#0#HTML" expanded="true" />
-                <element signature="e#9611#9642#0#HTML" expanded="true" />
-                <element signature="e#9857#9888#0#HTML" expanded="true" />
-                <element signature="e#10104#10136#0#HTML" expanded="true" />
-                <element signature="e#10351#10382#0#HTML" expanded="true" />
-                <element signature="e#10719#10750#0#HTML" expanded="true" />
-                <element signature="e#10964#10995#0#HTML" expanded="true" />
-                <element signature="e#11210#11241#0#HTML" expanded="true" />
-                <element signature="e#11456#11487#0#HTML" expanded="true" />
-                <element signature="e#11701#11733#0#HTML" expanded="true" />
-                <element signature="e#11948#11979#0#HTML" expanded="true" />
-                <element signature="e#12316#12347#0#HTML" expanded="true" />
-                <element signature="e#12561#12592#0#HTML" expanded="true" />
-                <element signature="e#12807#12838#0#HTML" expanded="true" />
-                <element signature="e#13052#13083#0#HTML" expanded="true" />
-                <element signature="e#13299#13331#0#HTML" expanded="true" />
-                <element signature="e#13546#13577#0#HTML" expanded="true" />
-                <element signature="e#13914#13945#0#HTML" expanded="true" />
-                <element signature="e#14159#14190#0#HTML" expanded="true" />
-                <element signature="e#14405#14436#0#HTML" expanded="true" />
-                <element signature="e#14652#14683#0#HTML" expanded="true" />
-                <element signature="e#14897#14929#0#HTML" expanded="true" />
-                <element signature="e#15144#15175#0#HTML" expanded="true" />
-                <element signature="e#15512#15543#0#HTML" expanded="true" />
-                <element signature="e#15757#15788#0#HTML" expanded="true" />
-                <element signature="e#16002#16033#0#HTML" expanded="true" />
-                <element signature="e#16247#16278#0#HTML" expanded="true" />
-                <element signature="e#16492#16524#0#HTML" expanded="true" />
-                <element signature="e#16738#16769#0#HTML" expanded="true" />
-                <element signature="e#17118#17150#0#HTML" expanded="true" />
-                <element signature="e#17378#17410#0#HTML" expanded="true" />
-                <element signature="e#17626#17657#0#HTML" expanded="true" />
-                <element signature="e#21642#22418#0#HTML" expanded="false" />
-                <element signature="e#22455#23242#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="13" column="95" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="97" column="48" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -269,53 +324,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_review.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_nofication.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_login.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/invite.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/login.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_charts.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_winner.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/nofication.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_review.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_setting_quiz.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/js/custom.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/model/class.setting.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="coca.dev" id="4b6be7fe-695c-4fb8-9fef-9e0f12970ec4" name="coca" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="D:/xampp/htdocs/coca" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -338,10 +401,11 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,7 +421,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -367,11 +431,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -381,15 +445,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -399,63 +463,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twentyfourteen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game_cocas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="game_coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -465,23 +485,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="game_coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -491,23 +511,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="game_coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -517,23 +537,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="game_coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -543,23 +563,23 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="game_coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -569,75 +589,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game_coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game_coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -647,19 +607,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-quiz-custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -669,27 +629,53 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-quiz-custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coca" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-quiz-custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -699,38 +685,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-quiz-custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Application.coca">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -744,10 +738,17 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -756,8 +757,36 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="coca" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="coca">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.coca" />
+    </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -766,32 +795,39 @@
       <changelist id="56ce2970-1a2e-40e9-a8a2-049aec1b07d2" name="Default" comment="" />
       <created>1473823070269</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1473823070269</updated>
+      <workItem from="1474004220087" duration="1234000" />
+      <workItem from="1474012243301" duration="6452000" />
+      <workItem from="1474073958716" duration="67962000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="75648000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2192429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -807,731 +843,459 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
-          <folding>
-            <marker date="1473893038245" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="69" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="580" column="40" selection-start-line="580" selection-start-column="33" selection-end-line="580" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/nofication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page-invite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page-regulation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42095238">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_nofication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12952381">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4857143">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/invite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_test_open.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="90.96154">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_rule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="133.46153">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.038462">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="68.07692">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="107.96154">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.576923">
-          <caret line="235" column="39" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_nofication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="115.80769">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4495238">
-          <caret line="146" column="15" selection-start-line="145" selection-start-column="8" selection-end-line="148" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_test_start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.078095">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_login.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_cocas/page_test_start.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51809525">
+        <state relative-caret-position="0">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/pluggable-deprecated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41333333">
+        <state relative-caret-position="0">
           <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/pluggable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34857142">
-          <caret line="1082" column="9" selection-start-line="1082" selection-start-column="9" selection-end-line="1082" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
+        <state relative-caret-position="0">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_charts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.115385">
+        <state relative-caret-position="0">
           <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#35#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/nofication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="59" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_winner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2075472">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <marker date="1473886888431" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <marker date="1473893038245" expanded="true" signature="-1:-1" placeholder="SELECT id FR..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
+        <state relative-caret-position="0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4905663">
-          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.0">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#7#40#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/template_mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
+        <state relative-caret-position="0">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0875">
-          <caret line="639" column="31" selection-start-line="639" selection-start-column="0" selection-end-line="640" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Coca SF_Cách chơi_160826.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-58.41905">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1473925614656" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Coca SF_Cách chơi_160826.htm" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_rule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.730769">
+        <state relative-caret-position="289">
           <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-          <folding>
-            <element signature="e#1432#19501#0#HTML" expanded="false" />
-            <element signature="e#5851#5882#0#HTML" expanded="true" />
-            <element signature="e#6116#6147#0#HTML" expanded="true" />
-            <element signature="e#6366#6397#0#HTML" expanded="true" />
-            <element signature="e#6616#6647#0#HTML" expanded="true" />
-            <element signature="e#6866#6898#0#HTML" expanded="true" />
-            <element signature="e#7143#7174#0#HTML" expanded="true" />
-            <element signature="e#7524#7555#0#HTML" expanded="true" />
-            <element signature="e#7769#7800#0#HTML" expanded="true" />
-            <element signature="e#8015#8046#0#HTML" expanded="true" />
-            <element signature="e#8260#8291#0#HTML" expanded="true" />
-            <element signature="e#8505#8537#0#HTML" expanded="true" />
-            <element signature="e#8752#8783#0#HTML" expanded="true" />
-            <element signature="e#9120#9151#0#HTML" expanded="true" />
-            <element signature="e#9365#9396#0#HTML" expanded="true" />
-            <element signature="e#9611#9642#0#HTML" expanded="true" />
-            <element signature="e#9857#9888#0#HTML" expanded="true" />
-            <element signature="e#10104#10136#0#HTML" expanded="true" />
-            <element signature="e#10351#10382#0#HTML" expanded="true" />
-            <element signature="e#10719#10750#0#HTML" expanded="true" />
-            <element signature="e#10964#10995#0#HTML" expanded="true" />
-            <element signature="e#11210#11241#0#HTML" expanded="true" />
-            <element signature="e#11456#11487#0#HTML" expanded="true" />
-            <element signature="e#11701#11733#0#HTML" expanded="true" />
-            <element signature="e#11948#11979#0#HTML" expanded="true" />
-            <element signature="e#12316#12347#0#HTML" expanded="true" />
-            <element signature="e#12561#12592#0#HTML" expanded="true" />
-            <element signature="e#12807#12838#0#HTML" expanded="true" />
-            <element signature="e#13052#13083#0#HTML" expanded="true" />
-            <element signature="e#13299#13331#0#HTML" expanded="true" />
-            <element signature="e#13546#13577#0#HTML" expanded="true" />
-            <element signature="e#13914#13945#0#HTML" expanded="true" />
-            <element signature="e#14159#14190#0#HTML" expanded="true" />
-            <element signature="e#14405#14436#0#HTML" expanded="true" />
-            <element signature="e#14652#14683#0#HTML" expanded="true" />
-            <element signature="e#14897#14929#0#HTML" expanded="true" />
-            <element signature="e#15144#15175#0#HTML" expanded="true" />
-            <element signature="e#15512#15543#0#HTML" expanded="true" />
-            <element signature="e#15757#15788#0#HTML" expanded="true" />
-            <element signature="e#16002#16033#0#HTML" expanded="true" />
-            <element signature="e#16247#16278#0#HTML" expanded="true" />
-            <element signature="e#16492#16524#0#HTML" expanded="true" />
-            <element signature="e#16738#16769#0#HTML" expanded="true" />
-            <element signature="e#17118#17150#0#HTML" expanded="true" />
-            <element signature="e#17378#17410#0#HTML" expanded="true" />
-            <element signature="e#17626#17657#0#HTML" expanded="true" />
-            <element signature="e#21642#22418#0#HTML" expanded="false" />
-            <element signature="e#22455#23242#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slickquiz/slickquiz/js/slickQuiz-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9272728">
-          <caret line="667" column="12" selection-start-line="667" selection-start-column="12" selection-end-line="667" selection-end-column="12" />
+        <state relative-caret-position="1003">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slickquiz/slickquiz/js/master.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slickquiz/slickquiz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slickquiz/slickquiz/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slickquiz/slickquiz/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slickquiz/slickquiz/css/slickQuiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/aj_bai09_99283700112351633/Bai 9/api/lib/cache/Memcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/slickquiz/slickquiz/js/slickQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7429">
+          <caret line="447" column="51" selection-start-line="447" selection-start-column="51" selection-end-line="447" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/pluggable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+          <folding>
+            <marker date="1474000733027" expanded="true" signature="3278:3324" ph="SELECT * FRO... ${$wpdb-&gt;users}" />
+            <marker date="1474000733027" expanded="true" signature="51347:51421" ph="SELECT count... ${$wpdb-&gt;comments}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="346" column="14" selection-start-line="346" selection-start-column="13" selection-end-line="346" selection-end-column="14" />
+          <folding>
+            <marker date="1474000732818" expanded="true" signature="5009:5056" ph="SELECT * FRO... ${$wpdb-&gt;users}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2341">
+          <caret line="1693" column="0" selection-start-line="1693" selection-start-column="0" selection-end-line="1693" selection-end-column="0" />
+          <folding>
+            <marker date="1474000733102" expanded="true" signature="11089:11123" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1474000733102" expanded="true" signature="12536:12641" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1474000733102" expanded="true" signature="27068:27165" ph="SELECT ${$se... ${$wpdb-&gt;usermeta}" />
+            <marker date="1474000733102" expanded="true" signature="27762:27846" ph="SELECT meta_... ${$wpdb-&gt;usermeta}" />
+            <marker date="1474000733102" expanded="true" signature="53070:53151" ph="SELECT ID FR... ${$wpdb-&gt;users}" />
+            <marker date="1474000733102" expanded="true" signature="53547:53628" ph="SELECT ID FR... ${$wpdb-&gt;users}" />
+            <marker date="1474000733102" expanded="true" signature="72472:72542" ph="SELECT ID, u... ${$wpdb-&gt;users}" />
+            <marker date="1474000733102" expanded="true" signature="77184:77191" ph="..." />
+            <marker date="1474000733102" expanded="true" signature="79116:79123" ph="..." />
+            <marker date="1474000733102" expanded="true" signature="79137:79145" ph="…" />
+            <marker date="1474000733102" expanded="true" signature="82154:82265" ph="SELECT user_... ${$wpdb-&gt;usermeta}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="199" column="36" selection-start-line="199" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding>
+            <marker date="1474000733003" expanded="true" signature="2605:2669" ph="SELECT COUNT... ${$table}" />
+            <marker date="1474000733003" expanded="true" signature="6711:6777" ph="SELECT ${$id... ${$table}" />
+            <marker date="1474000733003" expanded="true" signature="12138:12187" ph="SELECT ${$id... ${$table}" />
+            <marker date="1474000733003" expanded="true" signature="12771:12823" ph="SELECT ${$ty... ${$table}" />
+            <marker date="1474000733003" expanded="true" signature="13650:13725" ph="DELETE FROM " />
+            <marker date="1474000733003" expanded="true" signature="18796:18838" ph="SELECT * FRO... ${$table}" />
+            <marker date="1474000733003" expanded="true" signature="25507:25607" ph="SELECT ${$co... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/menu_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2452831">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="37" column="102" selection-start-line="37" selection-start-column="83" selection-end-line="37" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/donghodemnguoc/dongho.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#35#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/js/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1474000732400" expanded="true" signature="22451:22522" ph="..." />
+            <marker date="1474000732400" expanded="true" signature="22545:22569" ph="..." />
+            <marker date="1474000732400" expanded="true" signature="105475:105492" ph="..." />
+            <marker date="1474000732400" expanded="true" signature="120107:120123" ph="..." />
+            <marker date="1474000732400" expanded="true" signature="166800:166806" ph="..." />
+            <marker date="1474000732400" expanded="true" signature="277239:277283" ph="..." />
+            <marker date="1474000732400" expanded="true" signature="330498:330504" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/model/class.setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_setting_quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#0;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#th#0;n#tr#4;n#tbody#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/backend/active_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="13" selection-start-line="19" selection-start-column="7" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <marker date="1474085990742" expanded="true" signature="39:55" ph="..." />
+            <marker date="1474085990742" expanded="true" signature="193:251" ph="SELECT ID FR... ${$wpdb-&gt;users}" />
+            <marker date="1474085990742" expanded="true" signature="193:252" ph="SELECT ${$id... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="701" column="4" selection-start-line="701" selection-start-column="4" selection-end-line="701" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/inc/view/template_meta_box_winner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-quiz-custom/wp-quiz-custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="244" column="34" selection-start-line="244" selection-start-column="34" selection-end-line="244" selection-end-column="34" />
+          <folding>
+            <marker date="1474112972136" expanded="true" signature="14982:15216" ph="CREATE TABLE... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="98" column="89" selection-start-line="98" selection-start-column="89" selection-end-line="98" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/effect-startTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_open.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.528302">
-          <caret line="270" column="54" selection-start-line="270" selection-start-column="54" selection-end-line="270" selection-end-column="54" />
+        <state relative-caret-position="85">
+          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
           <folding>
             <element signature="e#6#38#0#PHP" expanded="false" />
-            <element signature="e#843#10143#0#HTML" expanded="false" />
-            <element signature="e#4301#4332#0#HTML" expanded="true" />
-            <element signature="e#4422#4453#0#HTML" expanded="true" />
-            <element signature="e#4528#4559#0#HTML" expanded="true" />
-            <element signature="e#4634#4665#0#HTML" expanded="true" />
-            <element signature="e#4740#4772#0#HTML" expanded="true" />
-            <element signature="e#4873#4904#0#HTML" expanded="true" />
-            <element signature="e#5022#5053#0#HTML" expanded="true" />
-            <element signature="e#5123#5154#0#HTML" expanded="true" />
-            <element signature="e#5225#5256#0#HTML" expanded="true" />
-            <element signature="e#5326#5357#0#HTML" expanded="true" />
-            <element signature="e#5427#5459#0#HTML" expanded="true" />
-            <element signature="e#5530#5561#0#HTML" expanded="true" />
-            <element signature="e#5666#5697#0#HTML" expanded="true" />
-            <element signature="e#5767#5798#0#HTML" expanded="true" />
-            <element signature="e#5869#5900#0#HTML" expanded="true" />
-            <element signature="e#5971#6002#0#HTML" expanded="true" />
-            <element signature="e#6074#6106#0#HTML" expanded="true" />
-            <element signature="e#6177#6208#0#HTML" expanded="true" />
-            <element signature="e#6313#6344#0#HTML" expanded="true" />
-            <element signature="e#6414#6445#0#HTML" expanded="true" />
-            <element signature="e#6516#6547#0#HTML" expanded="true" />
-            <element signature="e#6618#6649#0#HTML" expanded="true" />
-            <element signature="e#6719#6751#0#HTML" expanded="true" />
-            <element signature="e#6822#6853#0#HTML" expanded="true" />
-            <element signature="e#6958#6989#0#HTML" expanded="true" />
-            <element signature="e#7059#7090#0#HTML" expanded="true" />
-            <element signature="e#7161#7192#0#HTML" expanded="true" />
-            <element signature="e#7262#7293#0#HTML" expanded="true" />
-            <element signature="e#7365#7397#0#HTML" expanded="true" />
-            <element signature="e#7468#7499#0#HTML" expanded="true" />
-            <element signature="e#7604#7635#0#HTML" expanded="true" />
-            <element signature="e#7705#7736#0#HTML" expanded="true" />
-            <element signature="e#7807#7838#0#HTML" expanded="true" />
-            <element signature="e#7910#7941#0#HTML" expanded="true" />
-            <element signature="e#8011#8043#0#HTML" expanded="true" />
-            <element signature="e#8114#8145#0#HTML" expanded="true" />
-            <element signature="e#8250#8281#0#HTML" expanded="true" />
-            <element signature="e#8351#8382#0#HTML" expanded="true" />
-            <element signature="e#8452#8483#0#HTML" expanded="true" />
-            <element signature="e#8553#8584#0#HTML" expanded="true" />
-            <element signature="e#8654#8686#0#HTML" expanded="true" />
-            <element signature="e#8756#8787#0#HTML" expanded="true" />
-            <element signature="e#8904#8936#0#HTML" expanded="true" />
-            <element signature="e#9020#9052#0#HTML" expanded="true" />
-            <element signature="e#9124#9155#0#HTML" expanded="true" />
-            <marker date="1473932174037" expanded="true" signature="10478:10556" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/template/review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1474163108214" expanded="true" signature="1393:6671" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="1457:1642" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="2224:6617" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="2276:6594" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="2346:3433" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="2408:3433" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="3945:5563" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="4089:5563" ph="..." />
+            <marker date="1474163108214" expanded="true" signature="4140:5563" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="95" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="97" column="48" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/page_test_start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42771083">
-          <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="28" column="82" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="82" />
           <folding>
-            <element signature="e#6#40#0#PHP" expanded="false" />
-            <marker date="1473936148876" expanded="true" signature="918:4064" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1094:4064" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1134:4064" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1213:1747" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1257:1731" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1308:1483" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1534:1586" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1637:1714" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1834:4012" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1968:3464" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="1998:3446" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="2035:2340" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="2224:2321" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="2418:2701" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="2607:2682" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="2779:3077" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="2968:3058" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="3155:3426" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="3344:3407" placeholder="..." />
-            <marker date="1473936148876" expanded="true" signature="3495:3996" placeholder="..." />
+            <element signature="e#6#40#0#PHP" expanded="true" />
+            <marker date="1474163863801" expanded="true" signature="1971:2294" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="2722:3123" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="2762:3123" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="2817:3123" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="2861:3123" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="2912:3123" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="3499:3611" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="3662:3766" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="3831:5174" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="3940:4582" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="3970:4564" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="4127:4298" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="4127:4440" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="4362:4421" ph="..." />
+            <marker date="1474163863801" expanded="true" signature="4613:5158" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/js/process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/game_coca/framework/functions/ajax_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding>
+            <marker date="1474163999240" expanded="true" signature="5605:5686" ph="SELECT id FR... ${$wpdb-&gt;posts}" />
           </folding>
         </state>
       </provider>

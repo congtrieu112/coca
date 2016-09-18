@@ -1,14 +1,14 @@
 <?php
-   $question = $category = $explain = "";
+   $question  = $explain = "";
    $answer = array();
    $correct = array();
    if($data){
       $question = isset($data['description-question']) ? $data['description-question'] : "";
       $explain = isset($data['explain']) ? $data['explain'] : "";
       $answer = isset($data['answer']) ? $data['answer'] : array();
-      $category = isset($data['category']) ? $data['category'] : "";
       $correct = isset($data['correct_answer']) ? $data['correct_answer'] : array();
    }
+
 ?>
 <table class="form-table customQuiz" id="customQuiz">
    <tbody>
@@ -84,7 +84,7 @@
              <label class="correctAnswer" for="1">Category : </label>    
          </th> 
          <td>
-            <select name="question[category]" id="">
+            <select name="category_level" id="">
                <option value="1" <?php print ($category==1) ? "selected": ""; ?>>Nomal</option>
                <option value="2" <?php print ($category==2) ? "selected": ""; ?>>Manager</option>
             </select>

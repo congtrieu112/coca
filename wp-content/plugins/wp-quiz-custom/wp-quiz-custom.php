@@ -242,13 +242,12 @@ if ( !class_exists( 'WpQuizCustom' ) ) {
 		    $total_incorrect_question = filter_var($_POST['total_incorrect_question'],FILTER_SANITIZE_NUMBER_INT );
 			$total_point = filter_var($_POST['total_point'],FILTER_SANITIZE_NUMBER_INT );
 			$total_time_finish = filter_var($_POST['total_time_finish'],FILTER_SANITIZE_NUMBER_INT );
-			$user_play = filter_var($_POST['user_play'],FILTER_SANITIZE_NUMBER_INT );
 			$chance = filter_var($_POST['chance'],FILTER_SANITIZE_NUMBER_INT );
 			$prize = filter_var($_POST['prize'],FILTER_SANITIZE_NUMBER_INT );
 			$department = filter_var($_POST['department'],FILTER_SANITIZE_NUMBER_INT );
 			$level = filter_var($_POST['level'],FILTER_SANITIZE_NUMBER_INT );
-			if(!$total_correct_question || !$total_incorrect_question || !$total_point || !$total_time_finish || !$user_play )
-				return false;
+//			if(!$total_correct_question || !$total_incorrect_question || !$total_point || !$total_time_finish || !$user_play )
+//				return false;
 			
 			update_post_meta($post_id,"total_correct_question",$total_correct_question);
 			update_post_meta($post_id,"total_incorrect_question",$total_incorrect_question);
@@ -256,7 +255,6 @@ if ( !class_exists( 'WpQuizCustom' ) ) {
 			update_post_meta($post_id,"total_time_finish",$total_time_finish);
 			update_post_meta($post_id,"chance",$chance);
 			update_post_meta($post_id,"prize",$prize);
-			update_post_meta($post_id,"user_play",$user_play);
 			update_post_meta($post_id,"level",$level);
 			update_post_meta($post_id,"department",$department);
 			}
@@ -621,8 +619,10 @@ if ( !class_exists( 'WpQuizCustom' ) ) {
 			// Add nonce for security and authentication.
         	wp_nonce_field( 'custom_nonce_action', 'custom_nonce' );
         	$data = get_post_meta( $post->ID, "question", true );
+			$category = get_post_meta($post->ID,"category_level",true);
         	$data = json_decode($data,true, 512, JSON_UNESCAPED_UNICODE);
-        	
+//			set_query_var( 'category',  $category );
+
         	require_once(WPQUIZ__PLUGIN_DIR.'inc/view/template_meta_box.php');
 
 		}
@@ -663,10 +663,13 @@ if ( !class_exists( 'WpQuizCustom' ) ) {
 	        }
 	        
 			$data = json_encode($_POST['question'],JSON_UNESCAPED_UNICODE);
+			$category = filter_var($_POST['category_level'],FILTER_SANITIZE_NUMBER_INT );
+
 //			$data = stripcslashes($data);
 			update_post_meta($post_id,"question",$data);
-			
-			
+			update_post_meta($post_id,"category_level",$category);
+
+
 
 		}
 

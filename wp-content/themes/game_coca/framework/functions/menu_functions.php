@@ -63,7 +63,7 @@ if( !class_exists( 'TheCoCa_Menu' ) ) {
                     }else{
 						$url = home_url();
 						print "<li class='meunu-li' >";
-						print "<a href='javascript:pouplogin(\"$url\")'>$item->title</a>";
+						print "<a onclick='pouplogin(\"$url\")' href='javascript:void(0)'>$item->title</a>";
 						print "</li>";
 					}
                 }else{

@@ -1,26 +1,15 @@
 <?php
 get_header();
-
 print '<div style="min-height:300px"></div>';
 $key = filter_var($_GET['key'],FILTER_SANITIZE_STRING);
-$setting = array(
-
-'meta_key'         => 'key_active',
-'meta_value'       => $key,
-'post_type'        =>'winner'
-);
-global $options;
-$options = get_posts( $setting );
+global $wpdb;
 $option = "";
-if($options) {
+$option = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM $wpdb->users WHERE user_activation_key = %s ", $key ) );
 
-    $option = array_shift($options);
-    if(isset($option->ID)){
-        update_post_meta($option->ID, "status", 1);
-        update_post_meta($option->ID, "key_active", '');
+if($option) {
+    if(isset($option[0])&& $user_id = $option[0]){
+        $wpdb->update( $wpdb->users, array('user_activation_key'=>'','user_status'=>1), array('ID'=>$user_id) );
     }
-
-
 }
 
 get_footer();

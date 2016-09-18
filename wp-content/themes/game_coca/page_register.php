@@ -90,13 +90,13 @@ get_header();
                             <div class="form-group">
                                 <label for="password" class="col-md-4 control-label">Password</label>
                                 <div class="col-md-8">
-                                    <input type="password" class="form-control" name="passwd" >
+                                    <input type="password" class="form-control" name="passwd" id="passwd" >
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="password" class="col-md-4 control-label">Confirm Password</label>
                                 <div class="col-md-8">
-                                    <input type="password" class="form-control" name="re-passwd" >
+                                    <input type="password" class="form-control" name="re_passwd" id="re_passwd" >
                                 </div>
                             </div>
 

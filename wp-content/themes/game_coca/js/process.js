@@ -74,18 +74,110 @@ $(document).ready(function () {
     popup();
     next_preview_tab();
     validate_form();
-
+    start_test();
+    check();
+    dongho();
+    check_status_game();
 
 });
+function finish_test() {
+    // var datas = new Array();
+    // $( "input:checked" ).each(function (e) {
+    //     var data =$( "input:checked" ).val();
+    //     datas.push(data);
+    // })
+    //
+    // console.log(datas);
+    // return false;
+     var $btn = $(".next-page").button("loading");
+    var chance = $("#change_sum").val();
+    var inputs = $("#signupbox input"),
+        arr = [],
+        data ={};
+    for (var i = 0, max = inputs.length; i < max; i += 1) {
+        // Take only those inputs which are checkbox
+        if (inputs[i].type === "radio" && inputs[i].checked) {
 
-//function checkradio(){
-//
-//    $('input[type=radio]').each(function () {
-//        if (this.checked) {
-//            console.log($(this).val());
-//        }
-//    });
-//}
+           data =  { "postid": inputs[i].getAttribute('data-id'), "answer": inputs[i].value };
+            arr.push(data);
+        }
+
+
+    }
+
+
+    $.ajax({
+        type: 'POST',
+        url:  MyCongfig.AjaxUrl,
+        data: {data:arr,action:"result",chance:chance},
+        dataType: 'json',
+        async:    false, // for Safari
+        success:  function(data) {
+            $btn.button('reset');
+            if(data){
+                location.href = MyCongfig.page_result_url;
+            }
+
+
+
+
+
+
+        }
+    });
+
+}
+
+function  check_status_game() {
+    var page = parseInt(MyCongfig.page_template_start);
+    var active = parseInt(MyCongfig.active_game);
+    if(page ){
+        if(!active){
+            var message = "Game đã đóng , bạn quay lại sau nhé";
+            $('.error-nofiaction').html(message);
+            $('.nofication-poups').modal('show');
+            $('.nofication-poups').on('hidden.bs.modal', function (e) {
+                location.href = MyCongfig.home_url;
+
+            })
+        }
+    }
+}
+
+var m = MyCongfig.time_end;
+var s = 0;
+var timeout = null;
+function dongho(){
+    if(s === -1){
+        m -= 1;
+        s = 59;
+    }
+    if(m === -1){
+
+        clearTimeout(timeout);
+        console.log('hetgio');
+        return false;
+    }
+    $(".clock").html( m +":"+ s);
+    timeout = setTimeout(function(){
+        s--;
+        dongho();
+    }, 1000);
+}
+
+
+
+function check() {
+    $( "input[class='magic-radio']" ).on( "click", function (e) {
+        start_test();
+    } );
+}
+
+
+function start_test() {
+    var number_answer = $( "input:checked" ).length;
+    $(".answer-number").html(number_answer);
+}
 
 function next_preview_tab(){
     $('.next-page').on('click',function(){
@@ -169,11 +261,13 @@ function popup(){
 
 }
 
-function pouplogin(url){
+function pouplogin(url,redirect){
+    var check = (typeof redirect !== 'undefined') ? redirect  : true ;
     $(".login-form").modal('show');
     $('.login-form').on('shown.bs.modal', function (event) {
         var modal = $(this)
         modal.find('.modal-content input[name="_wp_http_referer"]').val(url);
+        modal.find("form#loginform").append('<input type="hidden" value="'+check+'" name="redirect" />');
     });
 }
 function active_menu() {
@@ -226,6 +320,23 @@ function validate_form(){
                     }
                 }
             },
+            passwd: {
+                validators: {
+
+                    stringLength: {
+                        min: 6,
+                        message: 'Pass ít nhiều nhất 6 ký tự'
+                    },
+                }
+            },
+            re_passwd: {
+                validators: {
+                    identical: {
+                        field: 'passwd',
+                        message: 'Pass không trung nhau'
+                    }
+                }
+            }
 
         }
     }).on('success.form.bv', function(e) {
@@ -233,7 +344,7 @@ function validate_form(){
 
         var $form = $(e.target);
         var bv = $form.data('bootstrapValidator');
-        var $btn = $(this).button('loading');
+        var $btn = $("#btn-signup").button('loading');
         var data = $("#signupform").serialize()+"&action=register_user";
 
             $.ajax({
@@ -256,11 +367,13 @@ function validate_form(){
                         $('.error-nofiaction').html('Bạn đã đăng ký thành công, vui lòng check mail để kích hoạt tài khoản của bạn');
                         $('.nofication-poups').modal('show');
                         //$('#signupform')[0].reset();
-                	}
-                    $('.nofication-poups').on('hidden.bs.modal', function (e) {
-                        $("#signupform").bootstrapValidator('resetForm', true);
+                        $('.nofication-poups').on('hidden.bs.modal', function (e) {
+                            $("#signupform").bootstrapValidator('resetForm', true);
+                            location.href = MyCongfig.home_url;
 
-                    })
+                        })
+                	}
+
 
 
                 }
@@ -271,70 +384,144 @@ function validate_form(){
     });
 
 
-    $("#loginform").bootstrapValidator({
-        live: 'enabled',
-        fields: {
-            pass: {
-                validators: {
-                    notEmpty: {
-                        message: 'Vui lòng nhập pass '
+        $("#loginform").bootstrapValidator({
+            live: 'disable',
+            submitHandler: function(validator, form, submitButton) {
+                // Do your task
+                // ...
+                // Submit the form
+                $("#btn-invite").button('loading');
+                validator.defaultSubmit();
+            },
+            fields: {
+                pass: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Vui lòng nhập pass '
+                        }
                     }
-                }
-            },
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'Vui lòng nhập email'
-                    },
-                    emailAddress:{
-                        message:"Email không hợp lệ"
-                    },
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Vui lòng nhập email'
+                        },
+                        emailAddress:{
+                            message:"Email không hợp lệ"
+                        },
 
 
-                }
-            },
-
-        }
-    }).on('success.form.bv', function(e) {
-        e.preventDefault();
-
-        var $form = $(e.target);
-        var bv = $form.data('bootstrapValidator');
-        //var $btn = $(this).button('loading');
-        var data = $("#loginform").serialize()+"&action=ajax_login";
-
-        $.ajax({
-            type: 'POST',
-            url:  MyCongfig.AjaxUrl,
-            data: data,
-            dataType: 'json',
-            async:    false, // for Safari
-            success:  function(data) {
-                return false;
-                if(data.loggedin){
-                    $(".nofication-result").html('Đăng nhập thành công').fadeIn('fast');
-                    setTimeout(function(e){
-                        $(".login-form").modal('hide');
-
-                        location.href=data.url_referer;
-                    },3000);
-                }else{
-                    $(".nofication-result").html('Email hoặc password không đúng').fadeIn('fast');
-                    $("#loginform").bootstrapValidator('resetForm', true);
-                }
-
+                    }
+                },
 
             }
+        }).on('success.form.bv', function(e) {
+            var $btn = $("#btn-invite").button('loading');
+            e.preventDefault();
+
+            var $form = $(e.target);
+            var bv = $form.data('bootstrapValidator');
+
+            var data = $("#loginform").serialize()+"&action=ajax_login";
+
+            $.ajax({
+                type: 'POST',
+                url:  MyCongfig.AjaxUrl,
+                data: data,
+                dataType: 'json',
+                async:    false, // for Safari
+                success:  function(data) {
+                    console.log(data);
+                    // return false;
+                    $btn.button('reset');
+                    if(data.loggedin){
+                        if(data.stauts){
+                            $(".nofication-result").html('Đăng nhập thành công').fadeIn('fast');
+                            setTimeout(function(e){
+                                $(".login-form").modal('hide');
+                                if(data.redirect){
+                                    location.href=data.url_referer;
+                                }else{
+                                    $(".login-form").on('hidden.bs.modal', function (e) {
+                                        if(data.level == "subscriber"){
+                                            var level_game = readCookie('level');
+                                            console.log(level_game);
+                                            if(level_game == 2){
+                                                var message = "Bạn không thể chọn game cấp độ này";
+                                                $('.error-nofiaction').html(message);
+                                                $('.nofication-poups').modal('show');
+                                                eraseCookie('level');
+                                                setTimeout(function (e) {
+                                                   location.reload();
+                                                },2000);
+
+                                            }
+                                        }
+                                    })
+                                }
+
+                            },2000);
+                        }else{
+                            $(".nofication-result").html('Tài khoản của bạn chưa active vui lòng check mail để active tài khoản của bạn').fadeIn('fast');
+                            $("#loginform").bootstrapValidator('resetForm', true);
+                            setTimeout(function(e){
+                                $(".nofication-result").slideUp('fast');
+                            },5000);
+                        }
+
+                    }else{
+                        $(".nofication-result").html('Email hoặc password không đúng').fadeIn('fast');
+                        $("#loginform").bootstrapValidator('resetForm', true);
+                        setTimeout(function(e){
+                            $(".nofication-result").slideUp('fast');
+                        },5000);
+                    }
+
+
+                }
+            });
         });
-    });
+
 
     $("#playgame").submit(function(e){
         e.preventDefault();
         var data = $(this).serialize()+"&action=check_level";
-        var values = $('.check-level').val();
-        setCookie('level',values,1);
+        var check_input = $( "input:checked" ).length;
+        var level= 0;
+        eraseCookie('level');
+        if(check_input == ""){
+            $('.error-nofiaction').html('Bạn chưa lựa chọn cấp độ chơi');
+            $('.nofication-poups').modal('show');
+            return false;
+        }
+
+        $("input:checked").each(function (e) {
+             level = $(this).val();
+        });
+        createCookie('level',level,1);
+        console.log(level );
+
         if($("#login_check").val()=='login'){
-            pouplogin($(this).attr('action'));
+            pouplogin($(this).attr('action'),false);
+
+        }else {
+            var level_login = $("#login_check").data('level');
+            if(level_login == "subscriber" ){
+                if(level == 2){
+                    var message = "Bạn không thể chọn game cấp độ này";
+                    $('.error-nofiaction').html(message);
+                    $('.nofication-poups').modal('show');
+                    eraseCookie('level');
+                    setTimeout(function (e) {
+                        location.reload();
+                    },2000);
+                }else{
+                    location.href = $(this).attr('action');
+                }
+            }else{
+                location.href = $(this).attr('action');
+            }
+
         }
 
         //Serialize the Form
@@ -366,25 +553,30 @@ function validate_form(){
 
 
 }
-function getCookie(cname) {
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length,c.length);
-        }
+
+function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
     }
-    return "";
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/";
 }
-function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + "; " + expires;
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {
+    createCookie(name,"",-1);
 }
 $(document).on('click', '.btn-select', function (e) {
     e.preventDefault();

@@ -8,14 +8,33 @@
 if( !class_exists( 'SetupQuiz' ) ) {
 	class SetupQuiz{
 		protected $func_args = array();
-
+        protected  $time_interval = "";
+        protected $active_game = true;
+        protected $page_start = false;
+        protected $page_result = false;
 		function __construct()
 		{
 			$this->contant();
 			//spl_autoload_register( array( $this, 'autoLoadIncs' ) );
 			$this->setFuncs_Args();
+            add_action('init', array($this,'myStartSession'), 1);
 
 		}
+        function myStartSession() {
+            if(!session_id()) {
+                session_start();
+            }
+        }
+		public function  check_active_game(){
+             $date_end = !empty(get_option('end_time_game')) ? get_option('end_time_game') : '';
+             $status =  !empty(get_option('status_game')) ? get_option('status_game') : '';
+             $date = strtotime($date_end);
+             $curent = time();
+
+            if( $curent > $date || !$status){
+                $this->active_game = false;
+            }
+        }
 
 		
 		public function contant()
@@ -69,6 +88,11 @@ if( !class_exists( 'SetupQuiz' ) ) {
 
 		public function frontendScripts()
 		{
+
+		    $this->time_interval = !empty(get_option('interval')) ? get_option('interval') : '';
+            $this->page_start = (is_page_template('page_test_start.php')) ? true: false;
+            $this->check_active_game();
+            $this->page_result = get_page_link(get_id_of_template("page_result.php"));
 			wp_enqueue_style('bootstrap.min', THEME_URI . 'css/bootstrap.min.css');
 			wp_enqueue_style('radio_css', THEME_URI . 'css/magic-check.css');
        		wp_enqueue_style('font-awesome_css', THEME_URI . 'css/font-awesome.css');
@@ -81,7 +105,7 @@ if( !class_exists( 'SetupQuiz' ) ) {
 			wp_register_script('scroll_js',THEME_URI.'js/jquery.tinyscrollbar.js',array(),false,true);
 			wp_register_script('custom_js',THEME_URI.'js/process.js',array(),false,true);
 			wp_register_script('validate_js',THEME_URI.'js/bootstrapValidator.js',array(),false,true);
-			wp_localize_script('custom_js','MyCongfig',array('AjaxUrl'=>admin_url('admin-ajax.php' ),'home_url'=>home_url('/')) );
+			wp_localize_script('custom_js','MyCongfig',array('page_result_url'=>$this->page_result,'template_root_url'=>get_template_directory_uri(),'page_template_start'=>$this->page_start,'active_game'=>$this->active_game,'time_end'=>$this->time_interval,'AjaxUrl'=>admin_url('admin-ajax.php' ),'home_url'=>home_url('/')) );
 			
 
 			wp_enqueue_script('jquery_google');

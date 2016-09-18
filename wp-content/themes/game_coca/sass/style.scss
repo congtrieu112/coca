@@ -699,6 +699,7 @@ a.btn.btn-select.btn-select-light {
     height: 29px;
     background:url(../images/chance.png) no-repeat;
     display: inline-block;
+    margin-right: 10px;
 }
 .chance-none{
     width: 34px;
@@ -1880,6 +1881,7 @@ legend{
     margin: 0 auto !important;
 
 }
+
 #btn-invite span{
     position: relative;
     z-index: 1;
@@ -2119,7 +2121,11 @@ legend{
 #btn-invite:hover,#btn-invite:focus,#btn-invite.focus,#btn-invite:active, #btn-invite.active,#btn-invite:visited,#btn-invite:not(:hover) {
     border-color: transparent !important;
     border: none !important;
+    outline: none;
 }
 li[data-hide="hide"]{
     display:none;
+}
+.sub-chance {
+  vertical-align: top;
 }
